@@ -9,7 +9,7 @@
   "ukmo_global_deterministic_10km",
   "jma_gsm"
  ],
- "generated": "2026-10-26T09:52:13Z",
+ "generated": "2026-10-26T09:53:52Z",
  "leads": {
   "long": {
    "from_day": 2,
@@ -22,47 +22,47 @@
  },
  "recommended": {
   "long": {
-   "baseline_rmse_kn": 4.72,
-   "bias_kn": 0.35,
+   "baseline_rmse_kn": 4.67,
+   "bias_kn": 0.15,
    "models": {
-    "ecmwf_ifs025": 4.44,
-    "gem_global": 4.15,
-    "gfs_global": 4.44,
-    "icon_global": 3.97,
-    "jma_gsm": 4.56,
-    "meteofrance_arpege_world": 3.88,
-    "ukmo_global_deterministic_10km": 4.23
+    "ecmwf_ifs025": 4.43,
+    "gem_global": 4.14,
+    "gfs_global": 4.42,
+    "icon_global": 3.96,
+    "jma_gsm": 4.62,
+    "meteofrance_arpege_world": 3.75,
+    "ukmo_global_deterministic_10km": 4.21
    },
    "n": 1440,
-   "rmse_kn": 4.08,
+   "rmse_kn": 3.92,
    "stations": 20,
    "weights": {
-    "gem_global": 0.238,
-    "icon_global": 0.26,
-    "meteofrance_arpege_world": 0.273,
-    "ukmo_global_deterministic_10km": 0.229
+    "gem_global": 0.234,
+    "icon_global": 0.255,
+    "meteofrance_arpege_world": 0.285,
+    "ukmo_global_deterministic_10km": 0.226
    }
   },
   "short": {
-   "baseline_rmse_kn": 3.92,
-   "bias_kn": 0.01,
+   "baseline_rmse_kn": 3.87,
+   "bias_kn": -0.18,
    "models": {
-    "ecmwf_ifs025": 4.01,
+    "ecmwf_ifs025": 4.02,
     "gem_global": 3.71,
-    "gfs_global": 3.79,
-    "icon_global": 3.49,
+    "gfs_global": 3.76,
+    "icon_global": 3.48,
     "jma_gsm": 3.92,
-    "meteofrance_arpege_world": 3.49,
-    "ukmo_global_deterministic_10km": 3.75
+    "meteofrance_arpege_world": 3.4,
+    "ukmo_global_deterministic_10km": 3.7
    },
    "n": 1440,
-   "rmse_kn": 3.74,
+   "rmse_kn": 3.58,
    "stations": 20,
    "weights": {
-    "gem_global": 0.236,
-    "icon_global": 0.267,
-    "meteofrance_arpege_world": 0.266,
-    "ukmo_global_deterministic_10km": 0.231
+    "gem_global": 0.231,
+    "icon_global": 0.262,
+    "meteofrance_arpege_world": 0.275,
+    "ukmo_global_deterministic_10km": 0.232
    }
   }
  },
@@ -83,14 +83,6 @@
    "primary": false,
    "role": "used"
   },
-  "IDN60801.94768": {
-   "lat": -33.9,
-   "lon": 151.2,
-   "name": "Sydney - Observatory Hill",
-   "obs_hours": 72,
-   "primary": false,
-   "role": "used"
-  },
   "IDN60801.94774": {
    "lat": -32.9,
    "lon": 151.8,
@@ -103,6 +95,14 @@
    "lat": -33.8,
    "lon": 151.3,
    "name": "Sydney Harbour",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "used"
+  },
+  "IDN60801.95768": {
+   "lat": -33.8,
+   "lon": 151.3,
+   "name": "North Head",
    "obs_hours": 72,
    "primary": false,
    "role": "used"
@@ -185,7 +185,7 @@
    "name": "Rottnest Island",
    "obs_hours": 72,
    "primary": false,
-   "role": "reference"
+   "role": "used"
   },
   "IDW60801.94605": {
    "lat": -32.5,
@@ -198,10 +198,10 @@
   "IDW60801.94614": {
    "lat": -32.0,
    "lon": 115.8,
-   "name": "Swanbourne",
+   "name": "Swanbourne (City Beach)",
    "obs_hours": 72,
    "primary": false,
-   "role": "reference"
+   "role": "used"
   },
   "IDW60801.94638": {
    "lat": -33.8,
