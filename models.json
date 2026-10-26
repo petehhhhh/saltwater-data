@@ -1,1 +1,233 @@
-{"version":1,"stations":{}}
+{
+ "candidates": [
+  "icon_global",
+  "gfs_global",
+  "gem_global",
+  "ecmwf_ifs025",
+  "meteofrance_arpege_world",
+  "bom_access_global",
+  "ukmo_global_deterministic_10km",
+  "jma_gsm"
+ ],
+ "generated": "2026-10-26T09:52:13Z",
+ "leads": {
+  "long": {
+   "from_day": 2,
+   "to_day": 4
+  },
+  "short": {
+   "from_day": 0,
+   "to_day": 1
+  }
+ },
+ "recommended": {
+  "long": {
+   "baseline_rmse_kn": 4.72,
+   "bias_kn": 0.35,
+   "models": {
+    "ecmwf_ifs025": 4.44,
+    "gem_global": 4.15,
+    "gfs_global": 4.44,
+    "icon_global": 3.97,
+    "jma_gsm": 4.56,
+    "meteofrance_arpege_world": 3.88,
+    "ukmo_global_deterministic_10km": 4.23
+   },
+   "n": 1440,
+   "rmse_kn": 4.08,
+   "stations": 20,
+   "weights": {
+    "gem_global": 0.238,
+    "icon_global": 0.26,
+    "meteofrance_arpege_world": 0.273,
+    "ukmo_global_deterministic_10km": 0.229
+   }
+  },
+  "short": {
+   "baseline_rmse_kn": 3.92,
+   "bias_kn": 0.01,
+   "models": {
+    "ecmwf_ifs025": 4.01,
+    "gem_global": 3.71,
+    "gfs_global": 3.79,
+    "icon_global": 3.49,
+    "jma_gsm": 3.92,
+    "meteofrance_arpege_world": 3.49,
+    "ukmo_global_deterministic_10km": 3.75
+   },
+   "n": 1440,
+   "rmse_kn": 3.74,
+   "stations": 20,
+   "weights": {
+    "gem_global": 0.236,
+    "icon_global": 0.267,
+    "meteofrance_arpege_world": 0.266,
+    "ukmo_global_deterministic_10km": 0.231
+   }
+  }
+ },
+ "stations": {
+  "IDN60801.94599": {
+   "lat": -28.6,
+   "lon": 153.6,
+   "name": "Cape Byron",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDN60801.94767": {
+   "lat": -33.9,
+   "lon": 151.2,
+   "name": "Sydney Airport",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "used"
+  },
+  "IDN60801.94768": {
+   "lat": -33.9,
+   "lon": 151.2,
+   "name": "Sydney - Observatory Hill",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "used"
+  },
+  "IDN60801.94774": {
+   "lat": -32.9,
+   "lon": 151.8,
+   "name": "Newcastle Nobbys",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDN60801.95766": {
+   "lat": -33.8,
+   "lon": 151.3,
+   "name": "Sydney Harbour",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "used"
+  },
+  "IDN60801.95770": {
+   "lat": -33.3,
+   "lon": 151.6,
+   "name": "Norah Head",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDN60801.95940": {
+   "lat": -35.1,
+   "lon": 150.8,
+   "name": "Point Perpendicular",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDQ60801.94287": {
+   "lat": -16.9,
+   "lon": 145.7,
+   "name": "Cairns",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDQ60801.94294": {
+   "lat": -19.2,
+   "lon": 146.8,
+   "name": "Townsville",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDQ60801.94580": {
+   "lat": -27.9,
+   "lon": 153.4,
+   "name": "Gold Coast Seaway",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDT60801.94970": {
+   "lat": -42.9,
+   "lon": 147.3,
+   "name": "Hobart",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDV60801.94842": {
+   "lat": -38.9,
+   "lon": 143.5,
+   "name": "Cape Otway",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDV60801.95826": {
+   "lat": -38.3,
+   "lon": 141.6,
+   "name": "Portland Harbour",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDW60801.94601": {
+   "lat": -34.4,
+   "lon": 115.1,
+   "name": "Cape Leeuwin",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDW60801.94602": {
+   "lat": -32.0,
+   "lon": 115.5,
+   "name": "Rottnest Island",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDW60801.94605": {
+   "lat": -32.5,
+   "lon": 115.7,
+   "name": "Mandurah",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDW60801.94614": {
+   "lat": -32.0,
+   "lon": 115.8,
+   "name": "Swanbourne",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDW60801.94638": {
+   "lat": -33.8,
+   "lon": 121.9,
+   "name": "Esperance",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDW60801.95602": {
+   "lat": -33.6,
+   "lon": 115.3,
+   "name": "Busselton Jetty",
+   "obs_hours": 72,
+   "primary": false,
+   "role": "reference"
+  },
+  "IDW60801.95607": {
+   "lat": -32.2,
+   "lon": 115.7,
+   "name": "Garden Island",
+   "obs_hours": 72,
+   "primary": true,
+   "role": "used"
+  }
+ },
+ "version": 1,
+ "window_days": 60
+}
