@@ -9,7 +9,7 @@
   "ukmo_global_deterministic_10km",
   "jma_gsm"
  ],
- "generated": "2026-10-26T10:00:38Z",
+ "generated": "2026-10-27T10:21:51Z",
  "leads": {
   "long": {
    "from_day": 2,
@@ -44,24 +44,24 @@
    }
   },
   "short": {
-   "baseline_rmse_kn": 3.87,
-   "bias_kn": -0.18,
+   "baseline_rmse_kn": 3.76,
+   "bias_kn": -0.3,
    "models": {
-    "ecmwf_ifs025": 4.02,
-    "gem_global": 3.71,
-    "gfs_global": 3.76,
-    "icon_global": 3.48,
-    "jma_gsm": 3.92,
-    "meteofrance_arpege_world": 3.4,
-    "ukmo_global_deterministic_10km": 3.7
+    "ecmwf_ifs025": 4.06,
+    "gem_global": 3.73,
+    "gfs_global": 3.67,
+    "icon_global": 3.4,
+    "jma_gsm": 3.99,
+    "meteofrance_arpege_world": 3.54,
+    "ukmo_global_deterministic_10km": 3.71
    },
-   "n": 1440,
-   "rmse_kn": 3.58,
+   "n": 1940,
+   "rmse_kn": 3.56,
    "stations": 20,
    "weights": {
-    "gem_global": 0.231,
-    "icon_global": 0.262,
-    "meteofrance_arpege_world": 0.275,
+    "gfs_global": 0.237,
+    "icon_global": 0.276,
+    "meteofrance_arpege_world": 0.255,
     "ukmo_global_deterministic_10km": 0.232
    }
   }
@@ -71,7 +71,7 @@
    "lat": -28.6,
    "lon": 153.6,
    "name": "Cape Byron",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -79,7 +79,7 @@
    "lat": -33.9,
    "lon": 151.2,
    "name": "Sydney Airport",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "used"
   },
@@ -87,7 +87,7 @@
    "lat": -32.9,
    "lon": 151.8,
    "name": "Newcastle Nobbys",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -95,7 +95,7 @@
    "lat": -33.8,
    "lon": 151.3,
    "name": "Sydney Harbour",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "used"
   },
@@ -103,7 +103,7 @@
    "lat": -33.8,
    "lon": 151.3,
    "name": "North Head",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "used"
   },
@@ -111,7 +111,7 @@
    "lat": -33.3,
    "lon": 151.6,
    "name": "Norah Head",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -119,7 +119,7 @@
    "lat": -35.1,
    "lon": 150.8,
    "name": "Point Perpendicular",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -127,7 +127,7 @@
    "lat": -16.9,
    "lon": 145.7,
    "name": "Cairns",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -135,7 +135,7 @@
    "lat": -19.2,
    "lon": 146.8,
    "name": "Townsville",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -143,7 +143,7 @@
    "lat": -27.9,
    "lon": 153.4,
    "name": "Gold Coast Seaway",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -151,7 +151,7 @@
    "lat": -42.9,
    "lon": 147.3,
    "name": "Hobart",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -159,7 +159,7 @@
    "lat": -38.9,
    "lon": 143.5,
    "name": "Cape Otway",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -167,7 +167,7 @@
    "lat": -38.3,
    "lon": 141.6,
    "name": "Portland Harbour",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -175,7 +175,7 @@
    "lat": -34.4,
    "lon": 115.1,
    "name": "Cape Leeuwin",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -183,7 +183,7 @@
    "lat": -32.0,
    "lon": 115.5,
    "name": "Rottnest Island",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "used"
   },
@@ -191,7 +191,7 @@
    "lat": -32.5,
    "lon": 115.7,
    "name": "Mandurah",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -199,7 +199,7 @@
    "lat": -32.0,
    "lon": 115.8,
    "name": "Swanbourne (City Beach)",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "used"
   },
@@ -207,7 +207,7 @@
    "lat": -33.8,
    "lon": 121.9,
    "name": "Esperance",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -215,7 +215,7 @@
    "lat": -33.6,
    "lon": 115.3,
    "name": "Busselton Jetty",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": false,
    "role": "reference"
   },
@@ -223,7 +223,7 @@
    "lat": -32.2,
    "lon": 115.7,
    "name": "Garden Island",
-   "obs_hours": 72,
+   "obs_hours": 97,
    "primary": true,
    "role": "used"
   }
