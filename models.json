@@ -9,7 +9,7 @@
   "ukmo_global_deterministic_10km",
   "jma_gsm"
  ],
- "generated": "2026-11-12T17:12:43Z",
+ "generated": "2026-11-13T17:20:52Z",
  "leads": {
   "long": {
    "from_day": 2,
@@ -22,47 +22,47 @@
  },
  "recommended": {
   "long": {
-   "baseline_rmse_kn": 4.02,
-   "bias_kn": -0.44,
+   "baseline_rmse_kn": 4.03,
+   "bias_kn": -0.43,
    "models": {
-    "ecmwf_ifs025": 4.52,
-    "gem_global": 4.23,
-    "gfs_global": 4.64,
-    "icon_global": 4.11,
-    "jma_gsm": 5.02,
-    "meteofrance_arpege_world": 4.01,
-    "ukmo_global_deterministic_10km": 4.45
+    "ecmwf_ifs025": 4.54,
+    "gem_global": 4.26,
+    "gfs_global": 4.65,
+    "icon_global": 4.12,
+    "jma_gsm": 5.0,
+    "meteofrance_arpege_world": 4.0,
+    "ukmo_global_deterministic_10km": 4.46
    },
-   "n": 8797,
-   "rmse_kn": 3.81,
+   "n": 9277,
+   "rmse_kn": 3.82,
    "stations": 20,
    "weights": {
-    "gem_global": 0.245,
+    "gem_global": 0.243,
     "icon_global": 0.26,
-    "meteofrance_arpege_world": 0.273,
-    "ukmo_global_deterministic_10km": 0.222
+    "meteofrance_arpege_world": 0.275,
+    "ukmo_global_deterministic_10km": 0.221
    }
   },
   "short": {
-   "baseline_rmse_kn": 3.69,
+   "baseline_rmse_kn": 3.68,
    "bias_kn": -0.26,
    "models": {
-    "ecmwf_ifs025": 4.2,
-    "gem_global": 3.92,
-    "gfs_global": 3.9,
+    "ecmwf_ifs025": 4.19,
+    "gem_global": 3.9,
+    "gfs_global": 3.89,
     "icon_global": 3.54,
-    "jma_gsm": 4.28,
-    "meteofrance_arpege_world": 3.78,
+    "jma_gsm": 4.27,
+    "meteofrance_arpege_world": 3.76,
     "ukmo_global_deterministic_10km": 4.0
    },
-   "n": 9757,
-   "rmse_kn": 3.61,
+   "n": 10237,
+   "rmse_kn": 3.6,
    "stations": 20,
    "weights": {
-    "gem_global": 0.232,
+    "gem_global": 0.233,
     "gfs_global": 0.234,
-    "icon_global": 0.285,
-    "meteofrance_arpege_world": 0.249
+    "icon_global": 0.283,
+    "meteofrance_arpege_world": 0.25
    }
   }
  },
@@ -71,105 +71,105 @@
    "lat": -28.6,
    "lon": 153.6,
    "long": {
-    "baseline_rmse_kn": 4.35,
-    "bias_kn": -4.03,
+    "baseline_rmse_kn": 4.48,
+    "bias_kn": -4.18,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 3.44,
-      "n": 440,
-      "rmse_kn": 6.36
+      "bias_kn": 3.33,
+      "n": 464,
+      "rmse_kn": 6.31
      },
      "gem_global": {
-      "bias_kn": -3.1,
-      "n": 440,
-      "rmse_kn": 5.33
+      "bias_kn": -3.09,
+      "n": 464,
+      "rmse_kn": 5.38
      },
      "gfs_global": {
-      "bias_kn": 0.66,
-      "n": 440,
-      "rmse_kn": 4.77
+      "bias_kn": 0.4,
+      "n": 464,
+      "rmse_kn": 4.9
      },
      "icon_global": {
-      "bias_kn": -2.04,
-      "n": 440,
-      "rmse_kn": 5.21
+      "bias_kn": -2.24,
+      "n": 464,
+      "rmse_kn": 5.33
      },
      "jma_gsm": {
-      "bias_kn": -6.51,
-      "n": 440,
-      "rmse_kn": 7.83
+      "bias_kn": -6.45,
+      "n": 464,
+      "rmse_kn": 7.79
      },
      "meteofrance_arpege_world": {
       "bias_kn": -6.71,
-      "n": 440,
-      "rmse_kn": 8.01
+      "n": 464,
+      "rmse_kn": 7.98
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.58,
-      "n": 440,
-      "rmse_kn": 4.6
+      "bias_kn": 0.36,
+      "n": 464,
+      "rmse_kn": 4.79
      }
     },
-    "n": 440,
-    "rmse_kn": 4.0,
+    "n": 464,
+    "rmse_kn": 4.04,
     "weights": {
-     "gem_global": 0.257,
-     "jma_gsm": 0.257,
-     "meteofrance_arpege_world": 0.253,
-     "ukmo_global_deterministic_10km": 0.233
+     "gem_global": 0.255,
+     "jma_gsm": 0.261,
+     "meteofrance_arpege_world": 0.267,
+     "ukmo_global_deterministic_10km": 0.217
     }
    },
    "name": "Cape Byron",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 4.04,
+    "baseline_rmse_kn": 4.0,
     "bias_kn": -1.77,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 2.45,
-      "n": 488,
-      "rmse_kn": 5.89
+      "bias_kn": 2.51,
+      "n": 512,
+      "rmse_kn": 5.88
      },
      "gem_global": {
-      "bias_kn": -3.38,
-      "n": 488,
-      "rmse_kn": 5.07
+      "bias_kn": -3.44,
+      "n": 512,
+      "rmse_kn": 5.09
      },
      "gfs_global": {
-      "bias_kn": -0.01,
-      "n": 488,
-      "rmse_kn": 4.01
+      "bias_kn": -0.03,
+      "n": 512,
+      "rmse_kn": 3.97
      },
      "icon_global": {
-      "bias_kn": -2.81,
-      "n": 488,
-      "rmse_kn": 4.66
+      "bias_kn": -2.74,
+      "n": 512,
+      "rmse_kn": 4.61
      },
      "jma_gsm": {
-      "bias_kn": -6.47,
-      "n": 488,
-      "rmse_kn": 7.73
+      "bias_kn": -6.51,
+      "n": 512,
+      "rmse_kn": 7.75
      },
      "meteofrance_arpege_world": {
       "bias_kn": -6.69,
-      "n": 488,
-      "rmse_kn": 7.93
+      "n": 512,
+      "rmse_kn": 7.9
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -0.38,
-      "n": 488,
+      "bias_kn": -0.4,
+      "n": 512,
       "rmse_kn": 4.18
      }
     },
-    "n": 488,
-    "rmse_kn": 3.48,
+    "n": 512,
+    "rmse_kn": 3.44,
     "weights": {
-     "gem_global": 0.267,
-     "gfs_global": 0.236,
-     "icon_global": 0.276,
-     "ukmo_global_deterministic_10km": 0.22
+     "gem_global": 0.268,
+     "gfs_global": 0.239,
+     "icon_global": 0.275,
+     "ukmo_global_deterministic_10km": 0.218
     }
    }
   },
@@ -177,104 +177,104 @@
    "lat": -33.9,
    "lon": 151.2,
    "long": {
-    "baseline_rmse_kn": 3.68,
-    "bias_kn": -1.94,
+    "baseline_rmse_kn": 3.72,
+    "bias_kn": -1.85,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 0.92,
-      "n": 440,
-      "rmse_kn": 4.13
-     },
-     "gem_global": {
-      "bias_kn": -1.39,
-      "n": 440,
-      "rmse_kn": 4.22
-     },
-     "gfs_global": {
-      "bias_kn": 1.3,
-      "n": 440,
-      "rmse_kn": 5.26
-     },
-     "icon_global": {
-      "bias_kn": -2.88,
-      "n": 440,
-      "rmse_kn": 5.0
-     },
-     "jma_gsm": {
-      "bias_kn": -4.88,
-      "n": 440,
-      "rmse_kn": 6.56
-     },
-     "meteofrance_arpege_world": {
-      "bias_kn": 3.23,
-      "n": 440,
-      "rmse_kn": 6.47
-     },
-     "ukmo_global_deterministic_10km": {
-      "bias_kn": 1.63,
-      "n": 440,
-      "rmse_kn": 5.5
-     }
-    },
-    "n": 440,
-    "rmse_kn": 3.34,
-    "weights": {
-     "ecmwf_ifs025": 0.26,
-     "gem_global": 0.266,
-     "icon_global": 0.253,
-     "jma_gsm": 0.221
-    }
-   },
-   "name": "Sydney Airport",
-   "obs_hours": 488,
-   "primary": false,
-   "role": "used",
-   "short": {
-    "baseline_rmse_kn": 3.66,
-    "bias_kn": -2.57,
-    "models": {
-     "ecmwf_ifs025": {
-      "bias_kn": 0.67,
-      "n": 488,
+      "bias_kn": 1.09,
+      "n": 464,
       "rmse_kn": 4.25
      },
      "gem_global": {
-      "bias_kn": -1.83,
-      "n": 488,
-      "rmse_kn": 4.11
+      "bias_kn": -1.23,
+      "n": 464,
+      "rmse_kn": 4.23
      },
      "gfs_global": {
-      "bias_kn": 0.84,
-      "n": 488,
-      "rmse_kn": 4.55
+      "bias_kn": 1.38,
+      "n": 464,
+      "rmse_kn": 5.27
      },
      "icon_global": {
-      "bias_kn": -3.05,
-      "n": 488,
+      "bias_kn": -2.74,
+      "n": 464,
+      "rmse_kn": 4.96
+     },
+     "jma_gsm": {
+      "bias_kn": -4.87,
+      "n": 464,
+      "rmse_kn": 6.52
+     },
+     "meteofrance_arpege_world": {
+      "bias_kn": 3.23,
+      "n": 464,
+      "rmse_kn": 6.43
+     },
+     "ukmo_global_deterministic_10km": {
+      "bias_kn": 1.41,
+      "n": 464,
+      "rmse_kn": 5.47
+     }
+    },
+    "n": 464,
+    "rmse_kn": 3.41,
+    "weights": {
+     "ecmwf_ifs025": 0.256,
+     "gem_global": 0.263,
+     "icon_global": 0.253,
+     "jma_gsm": 0.229
+    }
+   },
+   "name": "Sydney Airport",
+   "obs_hours": 512,
+   "primary": false,
+   "role": "used",
+   "short": {
+    "baseline_rmse_kn": 3.62,
+    "bias_kn": -2.53,
+    "models": {
+     "ecmwf_ifs025": {
+      "bias_kn": 0.7,
+      "n": 512,
+      "rmse_kn": 4.22
+     },
+     "gem_global": {
+      "bias_kn": -1.81,
+      "n": 512,
+      "rmse_kn": 4.07
+     },
+     "gfs_global": {
+      "bias_kn": 0.89,
+      "n": 512,
+      "rmse_kn": 4.49
+     },
+     "icon_global": {
+      "bias_kn": -3.04,
+      "n": 512,
       "rmse_kn": 4.72
      },
      "jma_gsm": {
-      "bias_kn": -5.57,
-      "n": 488,
-      "rmse_kn": 6.78
+      "bias_kn": -5.52,
+      "n": 512,
+      "rmse_kn": 6.73
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 2.89,
-      "n": 488,
-      "rmse_kn": 5.97
+      "bias_kn": 2.9,
+      "n": 512,
+      "rmse_kn": 5.92
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.01,
-      "n": 488,
+      "bias_kn": 0.07,
+      "n": 512,
       "rmse_kn": 4.5
      }
     },
-    "n": 488,
-    "rmse_kn": 3.25,
+    "n": 512,
+    "rmse_kn": 3.24,
     "weights": {
-     "ecmwf_ifs025": 0.207,
-     "gem_global": 0.269,
-     "icon_global": 0.28,
+     "ecmwf_ifs025": 0.209,
+     "gem_global": 0.271,
+     "icon_global": 0.277,
      "jma_gsm": 0.244
     }
    }
@@ -283,105 +283,105 @@
    "lat": -32.9,
    "lon": 151.8,
    "long": {
-    "baseline_rmse_kn": 4.02,
-    "bias_kn": -0.58,
+    "baseline_rmse_kn": 4.05,
+    "bias_kn": -0.48,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -0.19,
-      "n": 440,
-      "rmse_kn": 3.76
+      "bias_kn": -0.04,
+      "n": 464,
+      "rmse_kn": 3.8
      },
      "gem_global": {
-      "bias_kn": 0.44,
-      "n": 440,
-      "rmse_kn": 4.57
+      "bias_kn": 0.67,
+      "n": 464,
+      "rmse_kn": 4.64
      },
      "gfs_global": {
-      "bias_kn": -0.62,
-      "n": 440,
-      "rmse_kn": 4.84
-     },
-     "icon_global": {
-      "bias_kn": -0.41,
-      "n": 440,
-      "rmse_kn": 5.07
-     },
-     "jma_gsm": {
-      "bias_kn": 4.69,
-      "n": 440,
-      "rmse_kn": 8.17
-     },
-     "meteofrance_arpege_world": {
-      "bias_kn": -1.84,
-      "n": 440,
-      "rmse_kn": 4.47
-     },
-     "ukmo_global_deterministic_10km": {
-      "bias_kn": 1.89,
-      "n": 440,
-      "rmse_kn": 5.67
-     }
-    },
-    "n": 440,
-    "rmse_kn": 3.45,
-    "weights": {
-     "ecmwf_ifs025": 0.318,
-     "gem_global": 0.217,
-     "gfs_global": 0.195,
-     "meteofrance_arpege_world": 0.27
-    }
-   },
-   "name": "Newcastle Nobbys",
-   "obs_hours": 488,
-   "primary": false,
-   "role": "reference",
-   "short": {
-    "baseline_rmse_kn": 3.89,
-    "bias_kn": -0.91,
-    "models": {
-     "ecmwf_ifs025": {
-      "bias_kn": -0.4,
-      "n": 488,
-      "rmse_kn": 3.88
-     },
-     "gem_global": {
-      "bias_kn": 0.11,
-      "n": 488,
-      "rmse_kn": 4.8
-     },
-     "gfs_global": {
-      "bias_kn": -0.83,
-      "n": 488,
-      "rmse_kn": 4.08
+      "bias_kn": -0.57,
+      "n": 464,
+      "rmse_kn": 4.83
      },
      "icon_global": {
       "bias_kn": -0.27,
-      "n": 488,
-      "rmse_kn": 4.37
+      "n": 464,
+      "rmse_kn": 5.07
      },
      "jma_gsm": {
-      "bias_kn": 2.86,
-      "n": 488,
-      "rmse_kn": 6.78
+      "bias_kn": 4.48,
+      "n": 464,
+      "rmse_kn": 8.0
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -1.99,
-      "n": 488,
-      "rmse_kn": 4.34
+      "bias_kn": -1.81,
+      "n": 464,
+      "rmse_kn": 4.44
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.88,
-      "n": 488,
-      "rmse_kn": 4.77
+      "bias_kn": 1.79,
+      "n": 464,
+      "rmse_kn": 5.57
      }
     },
-    "n": 488,
-    "rmse_kn": 3.56,
+    "n": 464,
+    "rmse_kn": 3.49,
     "weights": {
-     "ecmwf_ifs025": 0.269,
-     "gfs_global": 0.251,
-     "icon_global": 0.211,
-     "meteofrance_arpege_world": 0.269
+     "ecmwf_ifs025": 0.313,
+     "gem_global": 0.215,
+     "gfs_global": 0.197,
+     "meteofrance_arpege_world": 0.275
+    }
+   },
+   "name": "Newcastle Nobbys",
+   "obs_hours": 512,
+   "primary": false,
+   "role": "reference",
+   "short": {
+    "baseline_rmse_kn": 3.86,
+    "bias_kn": -0.88,
+    "models": {
+     "ecmwf_ifs025": {
+      "bias_kn": -0.32,
+      "n": 512,
+      "rmse_kn": 3.87
+     },
+     "gem_global": {
+      "bias_kn": 0.11,
+      "n": 512,
+      "rmse_kn": 4.79
+     },
+     "gfs_global": {
+      "bias_kn": -0.73,
+      "n": 512,
+      "rmse_kn": 4.07
+     },
+     "icon_global": {
+      "bias_kn": -0.32,
+      "n": 512,
+      "rmse_kn": 4.34
+     },
+     "jma_gsm": {
+      "bias_kn": 3.01,
+      "n": 512,
+      "rmse_kn": 6.83
+     },
+     "meteofrance_arpege_world": {
+      "bias_kn": -2.01,
+      "n": 512,
+      "rmse_kn": 4.33
+     },
+     "ukmo_global_deterministic_10km": {
+      "bias_kn": 0.84,
+      "n": 512,
+      "rmse_kn": 4.72
+     }
+    },
+    "n": 512,
+    "rmse_kn": 3.54,
+    "weights": {
+     "ecmwf_ifs025": 0.268,
+     "gfs_global": 0.249,
+     "icon_global": 0.212,
+     "meteofrance_arpege_world": 0.272
     }
    }
   },
@@ -389,105 +389,105 @@
    "lat": -33.8,
    "lon": 151.3,
    "long": {
-    "baseline_rmse_kn": 4.03,
-    "bias_kn": -1.36,
+    "baseline_rmse_kn": 4.1,
+    "bias_kn": -1.28,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 3.3,
-      "n": 440,
-      "rmse_kn": 5.81
+      "bias_kn": 3.47,
+      "n": 464,
+      "rmse_kn": 6.02
      },
      "gem_global": {
-      "bias_kn": -0.78,
-      "n": 440,
-      "rmse_kn": 4.65
+      "bias_kn": -0.59,
+      "n": 464,
+      "rmse_kn": 4.75
      },
      "gfs_global": {
-      "bias_kn": -1.15,
-      "n": 440,
-      "rmse_kn": 5.09
-     },
-     "icon_global": {
-      "bias_kn": -2.24,
-      "n": 440,
-      "rmse_kn": 4.74
-     },
-     "jma_gsm": {
-      "bias_kn": 5.58,
-      "n": 440,
-      "rmse_kn": 8.93
-     },
-     "meteofrance_arpege_world": {
-      "bias_kn": -4.31,
-      "n": 440,
-      "rmse_kn": 5.92
-     },
-     "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.86,
-      "n": 440,
-      "rmse_kn": 4.97
-     }
-    },
-    "n": 440,
-    "rmse_kn": 3.47,
-    "weights": {
-     "ecmwf_ifs025": 0.208,
-     "gem_global": 0.227,
-     "icon_global": 0.274,
-     "meteofrance_arpege_world": 0.291
-    }
-   },
-   "name": "Sydney Harbour",
-   "obs_hours": 488,
-   "primary": false,
-   "role": "used",
-   "short": {
-    "baseline_rmse_kn": 3.84,
-    "bias_kn": -2.28,
-    "models": {
-     "ecmwf_ifs025": {
-      "bias_kn": 2.74,
-      "n": 488,
-      "rmse_kn": 5.75
-     },
-     "gem_global": {
       "bias_kn": -1.09,
-      "n": 488,
-      "rmse_kn": 4.4
-     },
-     "gfs_global": {
-      "bias_kn": -1.58,
-      "n": 488,
-      "rmse_kn": 4.17
+      "n": 464,
+      "rmse_kn": 5.11
      },
      "icon_global": {
-      "bias_kn": -2.37,
-      "n": 488,
-      "rmse_kn": 4.36
+      "bias_kn": -2.17,
+      "n": 464,
+      "rmse_kn": 4.76
      },
      "jma_gsm": {
-      "bias_kn": 2.88,
-      "n": 488,
-      "rmse_kn": 6.26
+      "bias_kn": 5.28,
+      "n": 464,
+      "rmse_kn": 8.76
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -4.42,
-      "n": 488,
+      "bias_kn": -4.27,
+      "n": 464,
       "rmse_kn": 5.91
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -0.48,
-      "n": 488,
-      "rmse_kn": 4.25
+      "bias_kn": 0.69,
+      "n": 464,
+      "rmse_kn": 5.0
      }
     },
-    "n": 488,
-    "rmse_kn": 3.41,
+    "n": 464,
+    "rmse_kn": 3.61,
     "weights": {
-     "gfs_global": 0.255,
-     "icon_global": 0.284,
-     "meteofrance_arpege_world": 0.248,
-     "ukmo_global_deterministic_10km": 0.213
+     "ecmwf_ifs025": 0.204,
+     "gem_global": 0.223,
+     "icon_global": 0.276,
+     "meteofrance_arpege_world": 0.296
+    }
+   },
+   "name": "Sydney Harbour",
+   "obs_hours": 512,
+   "primary": false,
+   "role": "used",
+   "short": {
+    "baseline_rmse_kn": 3.89,
+    "bias_kn": -2.24,
+    "models": {
+     "ecmwf_ifs025": {
+      "bias_kn": 2.87,
+      "n": 512,
+      "rmse_kn": 5.87
+     },
+     "gem_global": {
+      "bias_kn": -1.07,
+      "n": 512,
+      "rmse_kn": 4.49
+     },
+     "gfs_global": {
+      "bias_kn": -1.5,
+      "n": 512,
+      "rmse_kn": 4.16
+     },
+     "icon_global": {
+      "bias_kn": -2.37,
+      "n": 512,
+      "rmse_kn": 4.43
+     },
+     "jma_gsm": {
+      "bias_kn": 2.97,
+      "n": 512,
+      "rmse_kn": 6.34
+     },
+     "meteofrance_arpege_world": {
+      "bias_kn": -4.38,
+      "n": 512,
+      "rmse_kn": 5.91
+     },
+     "ukmo_global_deterministic_10km": {
+      "bias_kn": -0.42,
+      "n": 512,
+      "rmse_kn": 4.33
+     }
+    },
+    "n": 512,
+    "rmse_kn": 3.48,
+    "weights": {
+     "gfs_global": 0.261,
+     "icon_global": 0.28,
+     "meteofrance_arpege_world": 0.249,
+     "ukmo_global_deterministic_10km": 0.211
     }
    }
   },
@@ -495,105 +495,105 @@
    "lat": -33.8,
    "lon": 151.3,
    "long": {
-    "baseline_rmse_kn": 3.22,
-    "bias_kn": -0.0,
+    "baseline_rmse_kn": 3.25,
+    "bias_kn": 0.07,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 5.73,
-      "n": 440,
-      "rmse_kn": 7.58
+      "bias_kn": 5.88,
+      "n": 464,
+      "rmse_kn": 7.67
      },
      "gem_global": {
-      "bias_kn": 1.65,
-      "n": 440,
-      "rmse_kn": 4.3
+      "bias_kn": 1.81,
+      "n": 464,
+      "rmse_kn": 4.36
      },
      "gfs_global": {
-      "bias_kn": 1.28,
-      "n": 440,
-      "rmse_kn": 4.37
+      "bias_kn": 1.32,
+      "n": 464,
+      "rmse_kn": 4.32
      },
      "icon_global": {
-      "bias_kn": 0.27,
-      "n": 440,
+      "bias_kn": 0.4,
+      "n": 464,
       "rmse_kn": 3.85
      },
      "jma_gsm": {
-      "bias_kn": 8.01,
-      "n": 440,
-      "rmse_kn": 10.57
+      "bias_kn": 7.69,
+      "n": 464,
+      "rmse_kn": 10.33
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -1.87,
-      "n": 440,
-      "rmse_kn": 3.6
+      "bias_kn": -1.85,
+      "n": 464,
+      "rmse_kn": 3.55
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 3.29,
-      "n": 440,
-      "rmse_kn": 5.41
+      "bias_kn": 3.1,
+      "n": 464,
+      "rmse_kn": 5.29
      }
     },
-    "n": 440,
-    "rmse_kn": 2.74,
+    "n": 464,
+    "rmse_kn": 2.73,
     "weights": {
-     "gem_global": 0.216,
-     "gfs_global": 0.195,
-     "icon_global": 0.23,
-     "meteofrance_arpege_world": 0.359
+     "gem_global": 0.212,
+     "gfs_global": 0.198,
+     "icon_global": 0.228,
+     "meteofrance_arpege_world": 0.362
     }
    },
    "name": "North Head",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "used",
    "short": {
     "baseline_rmse_kn": 3.1,
-    "bias_kn": -0.16,
+    "bias_kn": -0.15,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 5.17,
-      "n": 488,
-      "rmse_kn": 7.27
+      "bias_kn": 5.28,
+      "n": 512,
+      "rmse_kn": 7.32
      },
      "gem_global": {
       "bias_kn": 1.34,
-      "n": 488,
+      "n": 512,
       "rmse_kn": 3.93
      },
      "gfs_global": {
-      "bias_kn": 0.85,
-      "n": 488,
-      "rmse_kn": 3.6
+      "bias_kn": 0.91,
+      "n": 512,
+      "rmse_kn": 3.59
      },
      "icon_global": {
-      "bias_kn": 0.02,
-      "n": 488,
-      "rmse_kn": 3.53
+      "bias_kn": -0.0,
+      "n": 512,
+      "rmse_kn": 3.52
      },
      "jma_gsm": {
-      "bias_kn": 5.32,
-      "n": 488,
-      "rmse_kn": 7.66
+      "bias_kn": 5.38,
+      "n": 512,
+      "rmse_kn": 7.65
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -1.98,
-      "n": 488,
-      "rmse_kn": 3.56
+      "bias_kn": -1.96,
+      "n": 512,
+      "rmse_kn": 3.53
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 1.95,
-      "n": 488,
+      "bias_kn": 1.99,
+      "n": 512,
       "rmse_kn": 4.21
      }
     },
-    "n": 488,
-    "rmse_kn": 2.7,
+    "n": 512,
+    "rmse_kn": 2.69,
     "weights": {
-     "gem_global": 0.21,
-     "gfs_global": 0.234,
+     "gem_global": 0.207,
+     "gfs_global": 0.235,
      "icon_global": 0.229,
-     "meteofrance_arpege_world": 0.327
+     "meteofrance_arpege_world": 0.329
     }
    }
   },
@@ -601,105 +601,105 @@
    "lat": -33.3,
    "lon": 151.6,
    "long": {
-    "baseline_rmse_kn": 4.48,
-    "bias_kn": -0.58,
+    "baseline_rmse_kn": 4.66,
+    "bias_kn": -0.48,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 3.64,
-      "n": 440,
-      "rmse_kn": 6.47
+      "bias_kn": 3.88,
+      "n": 464,
+      "rmse_kn": 6.78
      },
      "gem_global": {
-      "bias_kn": 1.09,
-      "n": 440,
-      "rmse_kn": 5.14
+      "bias_kn": 1.34,
+      "n": 464,
+      "rmse_kn": 5.32
      },
      "gfs_global": {
       "bias_kn": 3.77,
-      "n": 440,
-      "rmse_kn": 6.77
+      "n": 464,
+      "rmse_kn": 6.92
      },
      "icon_global": {
-      "bias_kn": -1.4,
-      "n": 440,
-      "rmse_kn": 5.0
-     },
-     "jma_gsm": {
-      "bias_kn": 2.75,
-      "n": 440,
-      "rmse_kn": 6.68
-     },
-     "meteofrance_arpege_world": {
-      "bias_kn": -4.99,
-      "n": 440,
-      "rmse_kn": 7.05
-     },
-     "ukmo_global_deterministic_10km": {
-      "bias_kn": 3.08,
-      "n": 440,
-      "rmse_kn": 6.52
-     }
-    },
-    "n": 440,
-    "rmse_kn": 4.25,
-    "weights": {
-     "ecmwf_ifs025": 0.221,
-     "gem_global": 0.25,
-     "icon_global": 0.274,
-     "meteofrance_arpege_world": 0.255
-    }
-   },
-   "name": "Norah Head",
-   "obs_hours": 488,
-   "primary": false,
-   "role": "reference",
-   "short": {
-    "baseline_rmse_kn": 4.23,
-    "bias_kn": -1.04,
-    "models": {
-     "ecmwf_ifs025": {
-      "bias_kn": 3.37,
-      "n": 488,
-      "rmse_kn": 6.03
-     },
-     "gem_global": {
-      "bias_kn": 0.9,
-      "n": 488,
+      "bias_kn": -1.25,
+      "n": 464,
       "rmse_kn": 5.03
      },
-     "gfs_global": {
-      "bias_kn": 3.43,
-      "n": 488,
-      "rmse_kn": 5.84
-     },
-     "icon_global": {
-      "bias_kn": -1.68,
-      "n": 488,
-      "rmse_kn": 4.62
-     },
      "jma_gsm": {
-      "bias_kn": 0.98,
-      "n": 488,
-      "rmse_kn": 4.82
+      "bias_kn": 2.52,
+      "n": 464,
+      "rmse_kn": 6.64
      },
      "meteofrance_arpege_world": {
       "bias_kn": -4.93,
-      "n": 488,
-      "rmse_kn": 6.73
+      "n": 464,
+      "rmse_kn": 7.03
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 1.69,
-      "n": 488,
-      "rmse_kn": 4.89
+      "bias_kn": 2.92,
+      "n": 464,
+      "rmse_kn": 6.46
      }
     },
-    "n": 488,
-    "rmse_kn": 4.01,
+    "n": 464,
+    "rmse_kn": 4.39,
     "weights": {
-     "icon_global": 0.278,
-     "jma_gsm": 0.231,
-     "meteofrance_arpege_world": 0.246,
-     "ukmo_global_deterministic_10km": 0.245
+     "ecmwf_ifs025": 0.213,
+     "gem_global": 0.248,
+     "icon_global": 0.277,
+     "meteofrance_arpege_world": 0.262
+    }
+   },
+   "name": "Norah Head",
+   "obs_hours": 512,
+   "primary": false,
+   "role": "reference",
+   "short": {
+    "baseline_rmse_kn": 4.2,
+    "bias_kn": -0.4,
+    "models": {
+     "ecmwf_ifs025": {
+      "bias_kn": 3.49,
+      "n": 512,
+      "rmse_kn": 6.06
+     },
+     "gem_global": {
+      "bias_kn": 0.91,
+      "n": 512,
+      "rmse_kn": 4.97
+     },
+     "gfs_global": {
+      "bias_kn": 3.49,
+      "n": 512,
+      "rmse_kn": 5.83
+     },
+     "icon_global": {
+      "bias_kn": -1.69,
+      "n": 512,
+      "rmse_kn": 4.68
+     },
+     "jma_gsm": {
+      "bias_kn": 1.06,
+      "n": 512,
+      "rmse_kn": 4.82
+     },
+     "meteofrance_arpege_world": {
+      "bias_kn": -4.92,
+      "n": 512,
+      "rmse_kn": 6.74
+     },
+     "ukmo_global_deterministic_10km": {
+      "bias_kn": 1.77,
+      "n": 512,
+      "rmse_kn": 4.9
+     }
+    },
+    "n": 512,
+    "rmse_kn": 3.93,
+    "weights": {
+     "gfs_global": 0.237,
+     "icon_global": 0.271,
+     "meteofrance_arpege_world": 0.244,
+     "ukmo_global_deterministic_10km": 0.247
     }
    }
   },
@@ -707,105 +707,105 @@
    "lat": -35.1,
    "lon": 150.8,
    "long": {
-    "baseline_rmse_kn": 3.77,
-    "bias_kn": 1.21,
+    "baseline_rmse_kn": 4.01,
+    "bias_kn": 1.32,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 6.05,
-      "n": 440,
-      "rmse_kn": 7.96
+      "bias_kn": 6.11,
+      "n": 464,
+      "rmse_kn": 8.05
      },
      "gem_global": {
-      "bias_kn": -0.23,
-      "n": 440,
-      "rmse_kn": 3.73
+      "bias_kn": -0.19,
+      "n": 464,
+      "rmse_kn": 4.03
      },
      "gfs_global": {
-      "bias_kn": 4.27,
-      "n": 440,
-      "rmse_kn": 7.08
+      "bias_kn": 4.49,
+      "n": 464,
+      "rmse_kn": 7.32
      },
      "icon_global": {
-      "bias_kn": -0.36,
-      "n": 440,
-      "rmse_kn": 4.37
+      "bias_kn": -0.27,
+      "n": 464,
+      "rmse_kn": 4.4
      },
      "jma_gsm": {
-      "bias_kn": 7.57,
-      "n": 440,
-      "rmse_kn": 9.98
+      "bias_kn": 7.35,
+      "n": 464,
+      "rmse_kn": 9.83
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.29,
-      "n": 440,
-      "rmse_kn": 4.13
+      "bias_kn": 1.32,
+      "n": 464,
+      "rmse_kn": 4.29
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 4.24,
-      "n": 440,
-      "rmse_kn": 7.2
+      "bias_kn": 4.21,
+      "n": 464,
+      "rmse_kn": 7.17
      }
     },
-    "n": 440,
-    "rmse_kn": 3.17,
+    "n": 464,
+    "rmse_kn": 3.43,
     "weights": {
-     "ecmwf_ifs025": 0.165,
-     "gem_global": 0.318,
-     "icon_global": 0.232,
-     "meteofrance_arpege_world": 0.286
+     "ecmwf_ifs025": 0.174,
+     "gem_global": 0.295,
+     "icon_global": 0.246,
+     "meteofrance_arpege_world": 0.285
     }
    },
    "name": "Point Perpendicular",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 3.34,
-    "bias_kn": 1.02,
+    "baseline_rmse_kn": 3.41,
+    "bias_kn": 1.03,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 5.33,
-      "n": 488,
-      "rmse_kn": 7.09
+      "bias_kn": 5.37,
+      "n": 512,
+      "rmse_kn": 7.14
      },
      "gem_global": {
-      "bias_kn": 0.34,
-      "n": 488,
-      "rmse_kn": 3.35
+      "bias_kn": 0.36,
+      "n": 512,
+      "rmse_kn": 3.38
      },
      "gfs_global": {
-      "bias_kn": 4.35,
-      "n": 488,
-      "rmse_kn": 6.06
+      "bias_kn": 4.47,
+      "n": 512,
+      "rmse_kn": 6.27
      },
      "icon_global": {
-      "bias_kn": -0.3,
-      "n": 488,
-      "rmse_kn": 3.32
+      "bias_kn": -0.38,
+      "n": 512,
+      "rmse_kn": 3.4
      },
      "jma_gsm": {
-      "bias_kn": 5.57,
-      "n": 488,
-      "rmse_kn": 7.5
+      "bias_kn": 5.62,
+      "n": 512,
+      "rmse_kn": 7.6
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.66,
-      "n": 488,
-      "rmse_kn": 3.8
+      "bias_kn": 1.71,
+      "n": 512,
+      "rmse_kn": 3.89
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 3.3,
-      "n": 488,
-      "rmse_kn": 5.35
+      "bias_kn": 3.32,
+      "n": 512,
+      "rmse_kn": 5.37
      }
     },
-    "n": 488,
-    "rmse_kn": 2.94,
+    "n": 512,
+    "rmse_kn": 3.01,
     "weights": {
-     "gem_global": 0.279,
-     "icon_global": 0.283,
-     "meteofrance_arpege_world": 0.264,
-     "ukmo_global_deterministic_10km": 0.174
+     "gem_global": 0.282,
+     "icon_global": 0.279,
+     "meteofrance_arpege_world": 0.261,
+     "ukmo_global_deterministic_10km": 0.178
     }
    }
   },
@@ -813,105 +813,105 @@
    "lat": -16.9,
    "lon": 145.7,
    "long": {
-    "baseline_rmse_kn": 2.47,
-    "bias_kn": -0.97,
+    "baseline_rmse_kn": 2.5,
+    "bias_kn": -1.05,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -0.11,
-      "n": 437,
-      "rmse_kn": 2.92
+      "bias_kn": -0.17,
+      "n": 461,
+      "rmse_kn": 2.91
      },
      "gem_global": {
-      "bias_kn": -0.13,
-      "n": 437,
-      "rmse_kn": 2.89
+      "bias_kn": -0.16,
+      "n": 461,
+      "rmse_kn": 2.88
      },
      "gfs_global": {
-      "bias_kn": -0.13,
-      "n": 437,
-      "rmse_kn": 2.49
+      "bias_kn": -0.19,
+      "n": 461,
+      "rmse_kn": 2.54
      },
      "icon_global": {
-      "bias_kn": -1.13,
-      "n": 437,
-      "rmse_kn": 2.78
+      "bias_kn": -1.25,
+      "n": 461,
+      "rmse_kn": 2.88
      },
      "jma_gsm": {
-      "bias_kn": -2.33,
-      "n": 437,
-      "rmse_kn": 3.44
+      "bias_kn": -2.46,
+      "n": 461,
+      "rmse_kn": 3.56
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -4.15,
-      "n": 437,
-      "rmse_kn": 5.07
+      "bias_kn": -4.29,
+      "n": 461,
+      "rmse_kn": 5.22
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.5,
-      "n": 437,
-      "rmse_kn": 3.47
+      "bias_kn": 0.46,
+      "n": 461,
+      "rmse_kn": 3.46
      }
     },
-    "n": 437,
-    "rmse_kn": 2.31,
+    "n": 461,
+    "rmse_kn": 2.34,
     "weights": {
-     "gem_global": 0.203,
-     "gfs_global": 0.274,
-     "icon_global": 0.261,
+     "gem_global": 0.209,
+     "gfs_global": 0.27,
+     "icon_global": 0.259,
      "jma_gsm": 0.262
     }
    },
    "name": "Cairns",
-   "obs_hours": 485,
+   "obs_hours": 509,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 2.5,
-    "bias_kn": -0.82,
+    "baseline_rmse_kn": 2.51,
+    "bias_kn": -0.83,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 0.12,
-      "n": 485,
-      "rmse_kn": 2.91
-     },
-     "gem_global": {
-      "bias_kn": 0.11,
-      "n": 485,
+      "bias_kn": 0.14,
+      "n": 509,
       "rmse_kn": 2.89
      },
+     "gem_global": {
+      "bias_kn": 0.15,
+      "n": 509,
+      "rmse_kn": 2.88
+     },
      "gfs_global": {
-      "bias_kn": 0.22,
-      "n": 485,
-      "rmse_kn": 2.63
+      "bias_kn": 0.24,
+      "n": 509,
+      "rmse_kn": 2.66
      },
      "icon_global": {
       "bias_kn": -1.1,
-      "n": 485,
+      "n": 509,
       "rmse_kn": 2.7
      },
      "jma_gsm": {
-      "bias_kn": -2.1,
-      "n": 485,
-      "rmse_kn": 3.22
+      "bias_kn": -2.23,
+      "n": 509,
+      "rmse_kn": 3.34
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -4.09,
-      "n": 485,
-      "rmse_kn": 5.02
+      "bias_kn": -4.22,
+      "n": 509,
+      "rmse_kn": 5.16
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.21,
-      "n": 485,
-      "rmse_kn": 3.22
+      "bias_kn": 0.31,
+      "n": 509,
+      "rmse_kn": 3.25
      }
     },
-    "n": 485,
-    "rmse_kn": 2.32,
+    "n": 509,
+    "rmse_kn": 2.33,
     "weights": {
-     "gem_global": 0.201,
-     "gfs_global": 0.244,
-     "icon_global": 0.274,
-     "jma_gsm": 0.281
+     "gem_global": 0.205,
+     "gfs_global": 0.241,
+     "icon_global": 0.279,
+     "jma_gsm": 0.274
     }
    }
   },
@@ -919,103 +919,103 @@
    "lat": -19.2,
    "lon": 146.8,
    "long": {
-    "baseline_rmse_kn": 3.17,
-    "bias_kn": -1.7,
+    "baseline_rmse_kn": 3.25,
+    "bias_kn": -1.69,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -1.39,
-      "n": 440,
-      "rmse_kn": 3.25
+      "bias_kn": -1.42,
+      "n": 464,
+      "rmse_kn": 3.28
      },
      "gem_global": {
-      "bias_kn": -0.58,
-      "n": 440,
-      "rmse_kn": 3.57
+      "bias_kn": -0.72,
+      "n": 464,
+      "rmse_kn": 3.66
      },
      "gfs_global": {
-      "bias_kn": 0.95,
-      "n": 440,
-      "rmse_kn": 3.87
+      "bias_kn": 0.86,
+      "n": 464,
+      "rmse_kn": 3.88
      },
      "icon_global": {
-      "bias_kn": -1.2,
-      "n": 440,
-      "rmse_kn": 3.31
+      "bias_kn": -1.32,
+      "n": 464,
+      "rmse_kn": 3.41
      },
      "jma_gsm": {
-      "bias_kn": 0.37,
-      "n": 440,
-      "rmse_kn": 3.59
+      "bias_kn": 0.29,
+      "n": 464,
+      "rmse_kn": 3.65
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -3.03,
-      "n": 440,
-      "rmse_kn": 4.07
+      "bias_kn": -3.12,
+      "n": 464,
+      "rmse_kn": 4.13
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -0.03,
-      "n": 440,
-      "rmse_kn": 3.52
+      "bias_kn": -0.09,
+      "n": 464,
+      "rmse_kn": 3.55
      }
     },
-    "n": 440,
-    "rmse_kn": 2.77,
+    "n": 464,
+    "rmse_kn": 2.8,
     "weights": {
      "ecmwf_ifs025": 0.265,
-     "gem_global": 0.185,
-     "icon_global": 0.241,
-     "meteofrance_arpege_world": 0.31
+     "icon_global": 0.234,
+     "meteofrance_arpege_world": 0.316,
+     "ukmo_global_deterministic_10km": 0.184
     }
    },
    "name": "Townsville",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 3.18,
-    "bias_kn": -1.79,
+    "baseline_rmse_kn": 3.21,
+    "bias_kn": -1.84,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -1.38,
-      "n": 488,
-      "rmse_kn": 3.13
+      "bias_kn": -1.43,
+      "n": 512,
+      "rmse_kn": 3.14
      },
      "gem_global": {
-      "bias_kn": -0.58,
-      "n": 488,
-      "rmse_kn": 3.57
+      "bias_kn": -0.65,
+      "n": 512,
+      "rmse_kn": 3.58
      },
      "gfs_global": {
-      "bias_kn": 0.93,
-      "n": 488,
-      "rmse_kn": 3.7
+      "bias_kn": 0.86,
+      "n": 512,
+      "rmse_kn": 3.69
      },
      "icon_global": {
-      "bias_kn": -1.5,
-      "n": 488,
-      "rmse_kn": 3.44
+      "bias_kn": -1.54,
+      "n": 512,
+      "rmse_kn": 3.48
      },
      "jma_gsm": {
-      "bias_kn": 0.15,
-      "n": 488,
-      "rmse_kn": 3.36
+      "bias_kn": 0.11,
+      "n": 512,
+      "rmse_kn": 3.38
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -3.25,
-      "n": 488,
-      "rmse_kn": 4.15
+      "bias_kn": -3.32,
+      "n": 512,
+      "rmse_kn": 4.21
      },
      "ukmo_global_deterministic_10km": {
       "bias_kn": -0.31,
-      "n": 488,
-      "rmse_kn": 3.34
+      "n": 512,
+      "rmse_kn": 3.33
      }
     },
-    "n": 488,
+    "n": 512,
     "rmse_kn": 2.73,
     "weights": {
-     "ecmwf_ifs025": 0.27,
-     "icon_global": 0.221,
+     "ecmwf_ifs025": 0.272,
+     "icon_global": 0.218,
      "meteofrance_arpege_world": 0.317,
      "ukmo_global_deterministic_10km": 0.192
     }
@@ -1025,105 +1025,105 @@
    "lat": -27.9,
    "lon": 153.4,
    "long": {
-    "baseline_rmse_kn": 4.37,
-    "bias_kn": 2.0,
+    "baseline_rmse_kn": 4.35,
+    "bias_kn": 1.91,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 3.08,
-      "n": 440,
-      "rmse_kn": 5.34
+      "bias_kn": 3.03,
+      "n": 464,
+      "rmse_kn": 5.33
      },
      "gem_global": {
-      "bias_kn": 1.71,
-      "n": 440,
-      "rmse_kn": 4.73
+      "bias_kn": 1.67,
+      "n": 464,
+      "rmse_kn": 4.77
      },
      "gfs_global": {
-      "bias_kn": 1.52,
-      "n": 440,
-      "rmse_kn": 4.29
+      "bias_kn": 1.3,
+      "n": 464,
+      "rmse_kn": 4.27
      },
      "icon_global": {
-      "bias_kn": 2.98,
-      "n": 440,
-      "rmse_kn": 5.63
+      "bias_kn": 2.82,
+      "n": 464,
+      "rmse_kn": 5.62
      },
      "jma_gsm": {
-      "bias_kn": 2.36,
-      "n": 440,
-      "rmse_kn": 5.17
+      "bias_kn": 2.43,
+      "n": 464,
+      "rmse_kn": 5.21
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.81,
-      "n": 440,
-      "rmse_kn": 4.32
+      "bias_kn": 1.75,
+      "n": 464,
+      "rmse_kn": 4.37
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 5.91,
-      "n": 440,
-      "rmse_kn": 8.04
+      "bias_kn": 5.83,
+      "n": 464,
+      "rmse_kn": 8.09
      }
     },
-    "n": 440,
-    "rmse_kn": 3.56,
+    "n": 464,
+    "rmse_kn": 3.59,
     "weights": {
-     "ecmwf_ifs025": 0.227,
-     "gem_global": 0.222,
-     "gfs_global": 0.269,
-     "meteofrance_arpege_world": 0.281
+     "ecmwf_ifs025": 0.231,
+     "gem_global": 0.223,
+     "gfs_global": 0.27,
+     "meteofrance_arpege_world": 0.277
     }
    },
    "name": "Gold Coast Seaway",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 3.63,
-    "bias_kn": 1.47,
+    "baseline_rmse_kn": 3.62,
+    "bias_kn": 1.44,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 2.26,
-      "n": 488,
-      "rmse_kn": 4.68
+      "bias_kn": 2.27,
+      "n": 512,
+      "rmse_kn": 4.69
      },
      "gem_global": {
-      "bias_kn": 0.81,
-      "n": 488,
-      "rmse_kn": 3.81
+      "bias_kn": 0.79,
+      "n": 512,
+      "rmse_kn": 3.82
      },
      "gfs_global": {
-      "bias_kn": 1.24,
-      "n": 488,
-      "rmse_kn": 3.86
+      "bias_kn": 1.23,
+      "n": 512,
+      "rmse_kn": 3.82
      },
      "icon_global": {
-      "bias_kn": 1.99,
-      "n": 488,
-      "rmse_kn": 4.68
+      "bias_kn": 1.96,
+      "n": 512,
+      "rmse_kn": 4.7
      },
      "jma_gsm": {
-      "bias_kn": 1.85,
-      "n": 488,
+      "bias_kn": 1.78,
+      "n": 512,
       "rmse_kn": 4.82
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.73,
-      "n": 488,
-      "rmse_kn": 4.24
+      "bias_kn": 1.66,
+      "n": 512,
+      "rmse_kn": 4.25
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 4.97,
-      "n": 488,
-      "rmse_kn": 7.49
+      "bias_kn": 4.94,
+      "n": 512,
+      "rmse_kn": 7.54
      }
     },
-    "n": 488,
-    "rmse_kn": 3.3,
+    "n": 512,
+    "rmse_kn": 3.31,
     "weights": {
      "ecmwf_ifs025": 0.218,
-     "gem_global": 0.264,
-     "gfs_global": 0.273,
-     "meteofrance_arpege_world": 0.245
+     "gem_global": 0.262,
+     "gfs_global": 0.28,
+     "meteofrance_arpege_world": 0.239
     }
    }
   },
@@ -1131,105 +1131,105 @@
    "lat": -42.9,
    "lon": 147.3,
    "long": {
-    "baseline_rmse_kn": 3.98,
-    "bias_kn": -2.92,
+    "baseline_rmse_kn": 3.92,
+    "bias_kn": -2.88,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 2.73,
-      "n": 440,
-      "rmse_kn": 6.41
+      "bias_kn": 2.96,
+      "n": 464,
+      "rmse_kn": 6.53
      },
      "gem_global": {
-      "bias_kn": -1.08,
-      "n": 440,
-      "rmse_kn": 3.91
+      "bias_kn": -1.11,
+      "n": 464,
+      "rmse_kn": 3.86
      },
      "gfs_global": {
-      "bias_kn": -2.7,
-      "n": 440,
-      "rmse_kn": 4.78
+      "bias_kn": -2.63,
+      "n": 464,
+      "rmse_kn": 4.68
      },
      "icon_global": {
-      "bias_kn": -1.6,
-      "n": 440,
-      "rmse_kn": 4.62
+      "bias_kn": -1.56,
+      "n": 464,
+      "rmse_kn": 4.56
      },
      "jma_gsm": {
-      "bias_kn": -1.29,
-      "n": 440,
-      "rmse_kn": 4.37
-     },
-     "meteofrance_arpege_world": {
-      "bias_kn": -6.25,
-      "n": 440,
-      "rmse_kn": 7.28
-     },
-     "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.51,
-      "n": 440,
-      "rmse_kn": 5.01
-     }
-    },
-    "n": 440,
-    "rmse_kn": 3.44,
-    "weights": {
-     "gem_global": 0.268,
-     "gfs_global": 0.244,
-     "jma_gsm": 0.217,
-     "meteofrance_arpege_world": 0.271
-    }
-   },
-   "name": "Hobart",
-   "obs_hours": 488,
-   "primary": false,
-   "role": "reference",
-   "short": {
-    "baseline_rmse_kn": 4.06,
-    "bias_kn": -3.04,
-    "models": {
-     "ecmwf_ifs025": {
-      "bias_kn": 2.55,
-      "n": 488,
-      "rmse_kn": 6.25
-     },
-     "gem_global": {
-      "bias_kn": -0.92,
-      "n": 488,
-      "rmse_kn": 4.23
-     },
-     "gfs_global": {
-      "bias_kn": -3.01,
-      "n": 488,
-      "rmse_kn": 4.89
-     },
-     "icon_global": {
-      "bias_kn": -1.41,
-      "n": 488,
-      "rmse_kn": 4.57
-     },
-     "jma_gsm": {
-      "bias_kn": -1.27,
-      "n": 488,
+      "bias_kn": -1.31,
+      "n": 464,
       "rmse_kn": 4.31
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -6.59,
-      "n": 488,
-      "rmse_kn": 7.68
+      "bias_kn": -6.14,
+      "n": 464,
+      "rmse_kn": 7.17
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 0.35,
-      "n": 488,
-      "rmse_kn": 5.22
+      "bias_kn": 0.61,
+      "n": 464,
+      "rmse_kn": 4.99
      }
     },
-    "n": 488,
-    "rmse_kn": 3.56,
+    "n": 464,
+    "rmse_kn": 3.38,
     "weights": {
-     "gem_global": 0.235,
+     "gem_global": 0.269,
+     "gfs_global": 0.244,
+     "jma_gsm": 0.218,
+     "meteofrance_arpege_world": 0.269
+    }
+   },
+   "name": "Hobart",
+   "obs_hours": 512,
+   "primary": false,
+   "role": "reference",
+   "short": {
+    "baseline_rmse_kn": 4.0,
+    "bias_kn": -3.01,
+    "models": {
+     "ecmwf_ifs025": {
+      "bias_kn": 2.42,
+      "n": 512,
+      "rmse_kn": 6.14
+     },
+     "gem_global": {
+      "bias_kn": -0.97,
+      "n": 512,
+      "rmse_kn": 4.16
+     },
+     "gfs_global": {
+      "bias_kn": -2.97,
+      "n": 512,
+      "rmse_kn": 4.81
+     },
+     "icon_global": {
+      "bias_kn": -1.43,
+      "n": 512,
+      "rmse_kn": 4.49
+     },
+     "jma_gsm": {
+      "bias_kn": -1.3,
+      "n": 512,
+      "rmse_kn": 4.25
+     },
+     "meteofrance_arpege_world": {
+      "bias_kn": -6.51,
+      "n": 512,
+      "rmse_kn": 7.58
+     },
+     "ukmo_global_deterministic_10km": {
+      "bias_kn": 0.37,
+      "n": 512,
+      "rmse_kn": 5.13
+     }
+    },
+    "n": 512,
+    "rmse_kn": 3.49,
+    "weights": {
+     "gem_global": 0.236,
      "gfs_global": 0.27,
-     "jma_gsm": 0.236,
-     "meteofrance_arpege_world": 0.259
+     "jma_gsm": 0.237,
+     "meteofrance_arpege_world": 0.257
     }
    }
   },
@@ -1237,105 +1237,105 @@
    "lat": -38.9,
    "lon": 143.5,
    "long": {
-    "baseline_rmse_kn": 3.92,
-    "bias_kn": 1.84,
+    "baseline_rmse_kn": 3.85,
+    "bias_kn": 1.82,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 3.16,
-      "n": 440,
-      "rmse_kn": 5.66
+      "bias_kn": 3.08,
+      "n": 464,
+      "rmse_kn": 5.55
      },
      "gem_global": {
-      "bias_kn": 0.02,
-      "n": 440,
-      "rmse_kn": 4.21
+      "bias_kn": 0.09,
+      "n": 464,
+      "rmse_kn": 4.14
      },
      "gfs_global": {
-      "bias_kn": 2.5,
-      "n": 440,
-      "rmse_kn": 5.46
-     },
-     "icon_global": {
-      "bias_kn": -0.56,
-      "n": 440,
-      "rmse_kn": 4.85
-     },
-     "jma_gsm": {
-      "bias_kn": 1.73,
-      "n": 440,
-      "rmse_kn": 5.22
-     },
-     "meteofrance_arpege_world": {
-      "bias_kn": 1.92,
-      "n": 440,
-      "rmse_kn": 4.61
-     },
-     "ukmo_global_deterministic_10km": {
       "bias_kn": 2.55,
-      "n": 440,
-      "rmse_kn": 4.96
-     }
-    },
-    "n": 440,
-    "rmse_kn": 3.64,
-    "weights": {
-     "ecmwf_ifs025": 0.212,
-     "gem_global": 0.264,
-     "meteofrance_arpege_world": 0.267,
-     "ukmo_global_deterministic_10km": 0.258
-    }
-   },
-   "name": "Cape Otway",
-   "obs_hours": 488,
-   "primary": false,
-   "role": "reference",
-   "short": {
-    "baseline_rmse_kn": 3.24,
-    "bias_kn": 1.29,
-    "models": {
-     "ecmwf_ifs025": {
-      "bias_kn": 3.34,
-      "n": 488,
-      "rmse_kn": 5.09
-     },
-     "gem_global": {
-      "bias_kn": -0.36,
-      "n": 488,
-      "rmse_kn": 3.42
-     },
-     "gfs_global": {
-      "bias_kn": 2.95,
-      "n": 488,
-      "rmse_kn": 4.67
+      "n": 464,
+      "rmse_kn": 5.4
      },
      "icon_global": {
       "bias_kn": -0.54,
-      "n": 488,
-      "rmse_kn": 4.03
+      "n": 464,
+      "rmse_kn": 4.75
      },
      "jma_gsm": {
-      "bias_kn": 0.89,
-      "n": 488,
-      "rmse_kn": 3.8
+      "bias_kn": 1.69,
+      "n": 464,
+      "rmse_kn": 5.12
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.86,
-      "n": 488,
-      "rmse_kn": 4.02
+      "bias_kn": 1.91,
+      "n": 464,
+      "rmse_kn": 4.53
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 2.26,
-      "n": 488,
-      "rmse_kn": 4.5
+      "bias_kn": 2.46,
+      "n": 464,
+      "rmse_kn": 4.86
      }
     },
-    "n": 488,
-    "rmse_kn": 3.06,
+    "n": 464,
+    "rmse_kn": 3.56,
     "weights": {
-     "gem_global": 0.274,
-     "gfs_global": 0.243,
-     "jma_gsm": 0.232,
-     "meteofrance_arpege_world": 0.25
+     "ecmwf_ifs025": 0.211,
+     "gem_global": 0.264,
+     "meteofrance_arpege_world": 0.268,
+     "ukmo_global_deterministic_10km": 0.257
+    }
+   },
+   "name": "Cape Otway",
+   "obs_hours": 512,
+   "primary": false,
+   "role": "reference",
+   "short": {
+    "baseline_rmse_kn": 3.2,
+    "bias_kn": 1.23,
+    "models": {
+     "ecmwf_ifs025": {
+      "bias_kn": 3.26,
+      "n": 512,
+      "rmse_kn": 5.04
+     },
+     "gem_global": {
+      "bias_kn": -0.35,
+      "n": 512,
+      "rmse_kn": 3.37
+     },
+     "gfs_global": {
+      "bias_kn": 2.87,
+      "n": 512,
+      "rmse_kn": 4.6
+     },
+     "icon_global": {
+      "bias_kn": -0.47,
+      "n": 512,
+      "rmse_kn": 3.97
+     },
+     "jma_gsm": {
+      "bias_kn": 0.8,
+      "n": 512,
+      "rmse_kn": 3.75
+     },
+     "meteofrance_arpege_world": {
+      "bias_kn": 1.81,
+      "n": 512,
+      "rmse_kn": 3.96
+     },
+     "ukmo_global_deterministic_10km": {
+      "bias_kn": 2.19,
+      "n": 512,
+      "rmse_kn": 4.45
+     }
+    },
+    "n": 512,
+    "rmse_kn": 3.03,
+    "weights": {
+     "gem_global": 0.277,
+     "gfs_global": 0.241,
+     "jma_gsm": 0.231,
+     "meteofrance_arpege_world": 0.251
     }
    }
   },
@@ -1343,105 +1343,105 @@
    "lat": -38.3,
    "lon": 141.6,
    "long": {
-    "baseline_rmse_kn": 3.65,
-    "bias_kn": -0.43,
+    "baseline_rmse_kn": 3.58,
+    "bias_kn": -0.44,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 4.0,
-      "n": 440,
-      "rmse_kn": 6.14
+      "bias_kn": 3.88,
+      "n": 464,
+      "rmse_kn": 6.01
      },
      "gem_global": {
-      "bias_kn": 2.57,
-      "n": 440,
-      "rmse_kn": 4.85
+      "bias_kn": 2.62,
+      "n": 464,
+      "rmse_kn": 4.82
      },
      "gfs_global": {
-      "bias_kn": 1.83,
-      "n": 440,
-      "rmse_kn": 4.32
+      "bias_kn": 1.75,
+      "n": 464,
+      "rmse_kn": 4.22
      },
      "icon_global": {
-      "bias_kn": 0.26,
-      "n": 440,
-      "rmse_kn": 3.79
+      "bias_kn": 0.19,
+      "n": 464,
+      "rmse_kn": 3.73
      },
      "jma_gsm": {
-      "bias_kn": 2.7,
-      "n": 440,
-      "rmse_kn": 5.59
+      "bias_kn": 2.64,
+      "n": 464,
+      "rmse_kn": 5.48
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -4.4,
-      "n": 440,
-      "rmse_kn": 5.59
+      "bias_kn": -4.34,
+      "n": 464,
+      "rmse_kn": 5.53
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 1.62,
-      "n": 440,
-      "rmse_kn": 4.19
+      "bias_kn": 1.54,
+      "n": 464,
+      "rmse_kn": 4.1
      }
     },
-    "n": 440,
-    "rmse_kn": 3.11,
+    "n": 464,
+    "rmse_kn": 3.06,
     "weights": {
-     "gfs_global": 0.228,
-     "icon_global": 0.244,
-     "meteofrance_arpege_world": 0.294,
-     "ukmo_global_deterministic_10km": 0.234
+     "gfs_global": 0.23,
+     "icon_global": 0.245,
+     "meteofrance_arpege_world": 0.29,
+     "ukmo_global_deterministic_10km": 0.236
     }
    },
    "name": "Portland Harbour",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 3.72,
-    "bias_kn": -0.2,
+    "baseline_rmse_kn": 3.65,
+    "bias_kn": -0.28,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 4.76,
-      "n": 488,
-      "rmse_kn": 6.63
+      "bias_kn": 4.61,
+      "n": 512,
+      "rmse_kn": 6.49
      },
      "gem_global": {
-      "bias_kn": 2.71,
-      "n": 488,
-      "rmse_kn": 4.98
+      "bias_kn": 2.64,
+      "n": 512,
+      "rmse_kn": 4.89
      },
      "gfs_global": {
-      "bias_kn": 2.08,
-      "n": 488,
-      "rmse_kn": 3.98
+      "bias_kn": 2.02,
+      "n": 512,
+      "rmse_kn": 3.91
      },
      "icon_global": {
-      "bias_kn": 0.57,
-      "n": 488,
-      "rmse_kn": 3.28
+      "bias_kn": 0.46,
+      "n": 512,
+      "rmse_kn": 3.25
      },
      "jma_gsm": {
-      "bias_kn": 3.03,
-      "n": 488,
-      "rmse_kn": 5.17
+      "bias_kn": 2.9,
+      "n": 512,
+      "rmse_kn": 5.06
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -4.18,
-      "n": 488,
-      "rmse_kn": 5.22
+      "bias_kn": -4.2,
+      "n": 512,
+      "rmse_kn": 5.21
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": 1.65,
-      "n": 488,
-      "rmse_kn": 4.09
+      "bias_kn": 1.58,
+      "n": 512,
+      "rmse_kn": 4.01
      }
     },
-    "n": 488,
-    "rmse_kn": 2.91,
+    "n": 512,
+    "rmse_kn": 2.87,
     "weights": {
-     "gfs_global": 0.245,
-     "icon_global": 0.269,
-     "meteofrance_arpege_world": 0.286,
-     "ukmo_global_deterministic_10km": 0.2
+     "gfs_global": 0.244,
+     "icon_global": 0.265,
+     "meteofrance_arpege_world": 0.289,
+     "ukmo_global_deterministic_10km": 0.202
     }
    }
   },
@@ -1449,105 +1449,105 @@
    "lat": -34.4,
    "lon": 115.1,
    "long": {
-    "baseline_rmse_kn": 3.79,
-    "bias_kn": -1.12,
+    "baseline_rmse_kn": 3.72,
+    "bias_kn": -1.04,
     "models": {
      "ecmwf_ifs025": {
       "bias_kn": 0.29,
-      "n": 440,
-      "rmse_kn": 3.94
+      "n": 464,
+      "rmse_kn": 3.89
      },
      "gem_global": {
-      "bias_kn": -1.29,
-      "n": 440,
-      "rmse_kn": 4.17
+      "bias_kn": -1.18,
+      "n": 464,
+      "rmse_kn": 4.12
      },
      "gfs_global": {
-      "bias_kn": -0.8,
-      "n": 440,
-      "rmse_kn": 4.51
+      "bias_kn": -0.76,
+      "n": 464,
+      "rmse_kn": 4.4
      },
      "icon_global": {
-      "bias_kn": -1.92,
-      "n": 440,
-      "rmse_kn": 4.47
+      "bias_kn": -1.79,
+      "n": 464,
+      "rmse_kn": 4.39
      },
      "jma_gsm": {
-      "bias_kn": -1.19,
-      "n": 440,
-      "rmse_kn": 5.21
+      "bias_kn": -1.23,
+      "n": 464,
+      "rmse_kn": 5.14
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -0.37,
-      "n": 440,
-      "rmse_kn": 4.19
+      "bias_kn": -0.27,
+      "n": 464,
+      "rmse_kn": 4.11
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -1.6,
-      "n": 440,
-      "rmse_kn": 4.19
+      "bias_kn": -1.53,
+      "n": 464,
+      "rmse_kn": 4.12
      }
     },
-    "n": 440,
-    "rmse_kn": 3.34,
+    "n": 464,
+    "rmse_kn": 3.3,
     "weights": {
-     "ecmwf_ifs025": 0.252,
-     "gem_global": 0.248,
-     "icon_global": 0.239,
-     "ukmo_global_deterministic_10km": 0.26
+     "ecmwf_ifs025": 0.254,
+     "gem_global": 0.247,
+     "icon_global": 0.238,
+     "ukmo_global_deterministic_10km": 0.261
     }
    },
    "name": "Cape Leeuwin",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 3.16,
-    "bias_kn": -0.61,
+    "baseline_rmse_kn": 3.13,
+    "bias_kn": -0.6,
     "models": {
      "ecmwf_ifs025": {
       "bias_kn": 0.31,
-      "n": 488,
-      "rmse_kn": 2.85
+      "n": 512,
+      "rmse_kn": 2.86
      },
      "gem_global": {
-      "bias_kn": -1.28,
-      "n": 488,
-      "rmse_kn": 3.5
+      "bias_kn": -1.23,
+      "n": 512,
+      "rmse_kn": 3.47
      },
      "gfs_global": {
-      "bias_kn": -0.78,
-      "n": 488,
-      "rmse_kn": 3.42
+      "bias_kn": -0.67,
+      "n": 512,
+      "rmse_kn": 3.38
      },
      "icon_global": {
-      "bias_kn": -1.4,
-      "n": 488,
-      "rmse_kn": 3.58
+      "bias_kn": -1.32,
+      "n": 512,
+      "rmse_kn": 3.55
      },
      "jma_gsm": {
       "bias_kn": -0.29,
-      "n": 488,
-      "rmse_kn": 3.1
+      "n": 512,
+      "rmse_kn": 3.09
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -0.23,
-      "n": 488,
-      "rmse_kn": 3.35
+      "bias_kn": -0.12,
+      "n": 512,
+      "rmse_kn": 3.32
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -1.51,
-      "n": 488,
-      "rmse_kn": 3.58
+      "bias_kn": -1.46,
+      "n": 512,
+      "rmse_kn": 3.53
      }
     },
-    "n": 488,
-    "rmse_kn": 2.73,
+    "n": 512,
+    "rmse_kn": 2.72,
     "weights": {
-     "ecmwf_ifs025": 0.298,
+     "ecmwf_ifs025": 0.293,
      "gem_global": 0.225,
      "jma_gsm": 0.251,
-     "ukmo_global_deterministic_10km": 0.226
+     "ukmo_global_deterministic_10km": 0.23
     }
    }
   },
@@ -1556,104 +1556,104 @@
    "lon": 115.5,
    "long": {
     "baseline_rmse_kn": 4.3,
-    "bias_kn": -0.57,
+    "bias_kn": -0.46,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -0.37,
-      "n": 440,
+      "bias_kn": -0.29,
+      "n": 464,
       "rmse_kn": 4.33
      },
      "gem_global": {
-      "bias_kn": -0.63,
-      "n": 440,
-      "rmse_kn": 4.73
+      "bias_kn": -0.44,
+      "n": 464,
+      "rmse_kn": 4.74
      },
      "gfs_global": {
-      "bias_kn": 0.05,
-      "n": 440,
-      "rmse_kn": 4.93
+      "bias_kn": -0.02,
+      "n": 464,
+      "rmse_kn": 5.05
      },
      "icon_global": {
-      "bias_kn": -2.98,
-      "n": 440,
-      "rmse_kn": 5.42
+      "bias_kn": -3.04,
+      "n": 464,
+      "rmse_kn": 5.43
      },
      "jma_gsm": {
-      "bias_kn": -0.93,
-      "n": 440,
-      "rmse_kn": 4.53
+      "bias_kn": -0.9,
+      "n": 464,
+      "rmse_kn": 4.54
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -0.5,
-      "n": 440,
-      "rmse_kn": 4.05
+      "bias_kn": -0.3,
+      "n": 464,
+      "rmse_kn": 4.14
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -0.52,
-      "n": 440,
-      "rmse_kn": 4.11
+      "bias_kn": -0.4,
+      "n": 464,
+      "rmse_kn": 4.23
      }
     },
-    "n": 440,
-    "rmse_kn": 3.49,
+    "n": 464,
+    "rmse_kn": 3.56,
     "weights": {
-     "ecmwf_ifs025": 0.237,
-     "jma_gsm": 0.225,
-     "meteofrance_arpege_world": 0.273,
-     "ukmo_global_deterministic_10km": 0.266
+     "ecmwf_ifs025": 0.245,
+     "jma_gsm": 0.231,
+     "meteofrance_arpege_world": 0.267,
+     "ukmo_global_deterministic_10km": 0.257
     }
    },
    "name": "Rottnest Island",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "used",
    "short": {
-    "baseline_rmse_kn": 3.66,
-    "bias_kn": -0.71,
+    "baseline_rmse_kn": 3.62,
+    "bias_kn": -0.76,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -0.08,
-      "n": 488,
-      "rmse_kn": 3.26
+      "bias_kn": -0.2,
+      "n": 512,
+      "rmse_kn": 3.31
      },
      "gem_global": {
-      "bias_kn": -0.15,
-      "n": 488,
-      "rmse_kn": 4.25
+      "bias_kn": -0.06,
+      "n": 512,
+      "rmse_kn": 4.19
      },
      "gfs_global": {
       "bias_kn": -0.52,
-      "n": 488,
-      "rmse_kn": 3.96
+      "n": 512,
+      "rmse_kn": 3.92
      },
      "icon_global": {
-      "bias_kn": -1.93,
-      "n": 488,
-      "rmse_kn": 4.2
+      "bias_kn": -2.03,
+      "n": 512,
+      "rmse_kn": 4.29
      },
      "jma_gsm": {
-      "bias_kn": -1.04,
-      "n": 488,
-      "rmse_kn": 4.41
+      "bias_kn": -1.06,
+      "n": 512,
+      "rmse_kn": 4.36
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -0.61,
-      "n": 488,
-      "rmse_kn": 4.12
+      "bias_kn": -0.57,
+      "n": 512,
+      "rmse_kn": 4.09
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -0.56,
-      "n": 488,
-      "rmse_kn": 3.29
+      "bias_kn": -0.53,
+      "n": 512,
+      "rmse_kn": 3.28
      }
     },
-    "n": 488,
-    "rmse_kn": 3.06,
+    "n": 512,
+    "rmse_kn": 3.08,
     "weights": {
-     "ecmwf_ifs025": 0.288,
-     "gfs_global": 0.199,
-     "icon_global": 0.22,
-     "ukmo_global_deterministic_10km": 0.292
+     "ecmwf_ifs025": 0.283,
+     "gfs_global": 0.205,
+     "icon_global": 0.217,
+     "ukmo_global_deterministic_10km": 0.295
     }
    }
   },
@@ -1661,104 +1661,104 @@
    "lat": -32.5,
    "lon": 115.7,
    "long": {
-    "baseline_rmse_kn": 5.75,
-    "bias_kn": 1.38,
+    "baseline_rmse_kn": 5.74,
+    "bias_kn": 1.44,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 7.49,
-      "n": 440,
-      "rmse_kn": 9.34
+      "bias_kn": 7.64,
+      "n": 464,
+      "rmse_kn": 9.42
      },
      "gem_global": {
-      "bias_kn": 5.74,
-      "n": 440,
-      "rmse_kn": 7.29
+      "bias_kn": 5.9,
+      "n": 464,
+      "rmse_kn": 7.44
      },
      "gfs_global": {
-      "bias_kn": 6.41,
-      "n": 440,
-      "rmse_kn": 8.15
+      "bias_kn": 6.34,
+      "n": 464,
+      "rmse_kn": 8.07
      },
      "icon_global": {
       "bias_kn": 1.28,
-      "n": 440,
-      "rmse_kn": 3.52
+      "n": 464,
+      "rmse_kn": 3.46
      },
      "jma_gsm": {
-      "bias_kn": 6.53,
-      "n": 440,
-      "rmse_kn": 8.09
+      "bias_kn": 6.64,
+      "n": 464,
+      "rmse_kn": 8.13
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.87,
-      "n": 440,
-      "rmse_kn": 3.99
+      "bias_kn": 1.95,
+      "n": 464,
+      "rmse_kn": 4.01
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -0.43,
-      "n": 440,
-      "rmse_kn": 2.75
+      "bias_kn": -0.4,
+      "n": 464,
+      "rmse_kn": 2.78
      }
     },
-    "n": 440,
-    "rmse_kn": 2.67,
+    "n": 464,
+    "rmse_kn": 2.66,
     "weights": {
-     "gem_global": 0.138,
-     "icon_global": 0.259,
-     "meteofrance_arpege_world": 0.225,
-     "ukmo_global_deterministic_10km": 0.378
+     "gem_global": 0.136,
+     "icon_global": 0.269,
+     "meteofrance_arpege_world": 0.227,
+     "ukmo_global_deterministic_10km": 0.369
     }
    },
    "name": "Mandurah",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 5.48,
-    "bias_kn": 1.42,
+    "baseline_rmse_kn": 5.52,
+    "bias_kn": 1.44,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 7.77,
-      "n": 488,
-      "rmse_kn": 8.83
+      "bias_kn": 7.69,
+      "n": 512,
+      "rmse_kn": 8.76
      },
      "gem_global": {
-      "bias_kn": 6.1,
-      "n": 488,
-      "rmse_kn": 7.39
+      "bias_kn": 6.19,
+      "n": 512,
+      "rmse_kn": 7.49
      },
      "gfs_global": {
-      "bias_kn": 6.0,
-      "n": 488,
-      "rmse_kn": 7.42
+      "bias_kn": 6.02,
+      "n": 512,
+      "rmse_kn": 7.43
      },
      "icon_global": {
-      "bias_kn": 1.47,
-      "n": 488,
-      "rmse_kn": 2.95
+      "bias_kn": 1.46,
+      "n": 512,
+      "rmse_kn": 2.94
      },
      "jma_gsm": {
-      "bias_kn": 6.66,
-      "n": 488,
-      "rmse_kn": 7.78
+      "bias_kn": 6.7,
+      "n": 512,
+      "rmse_kn": 7.82
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.6,
-      "n": 488,
+      "bias_kn": 1.64,
+      "n": 512,
       "rmse_kn": 3.61
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -0.6,
-      "n": 488,
-      "rmse_kn": 2.48
+      "bias_kn": -0.56,
+      "n": 512,
+      "rmse_kn": 2.46
      }
     },
-    "n": 488,
+    "n": 512,
     "rmse_kn": 2.26,
     "weights": {
-     "icon_global": 0.316,
-     "jma_gsm": 0.129,
-     "meteofrance_arpege_world": 0.198,
+     "icon_global": 0.317,
+     "jma_gsm": 0.127,
+     "meteofrance_arpege_world": 0.199,
      "ukmo_global_deterministic_10km": 0.357
     }
    }
@@ -1767,105 +1767,105 @@
    "lat": -32.0,
    "lon": 115.8,
    "long": {
-    "baseline_rmse_kn": 3.57,
-    "bias_kn": -0.48,
+    "baseline_rmse_kn": 3.51,
+    "bias_kn": -0.5,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 0.29,
-      "n": 440,
-      "rmse_kn": 3.03
+      "bias_kn": 0.3,
+      "n": 464,
+      "rmse_kn": 2.97
      },
      "gem_global": {
-      "bias_kn": -0.24,
-      "n": 440,
-      "rmse_kn": 3.2
+      "bias_kn": -0.21,
+      "n": 464,
+      "rmse_kn": 3.18
      },
      "gfs_global": {
-      "bias_kn": 6.07,
-      "n": 440,
-      "rmse_kn": 7.59
+      "bias_kn": 6.0,
+      "n": 464,
+      "rmse_kn": 7.5
      },
      "icon_global": {
-      "bias_kn": 0.02,
-      "n": 440,
-      "rmse_kn": 3.03
+      "bias_kn": -0.04,
+      "n": 464,
+      "rmse_kn": 3.0
      },
      "jma_gsm": {
-      "bias_kn": -0.77,
-      "n": 440,
-      "rmse_kn": 3.15
+      "bias_kn": -0.8,
+      "n": 464,
+      "rmse_kn": 3.11
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 0.81,
-      "n": 440,
-      "rmse_kn": 3.29
+      "bias_kn": 0.82,
+      "n": 464,
+      "rmse_kn": 3.25
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -1.34,
-      "n": 440,
-      "rmse_kn": 3.12
+      "bias_kn": -1.33,
+      "n": 464,
+      "rmse_kn": 3.09
      }
     },
-    "n": 440,
-    "rmse_kn": 2.37,
+    "n": 464,
+    "rmse_kn": 2.34,
     "weights": {
-     "ecmwf_ifs025": 0.243,
-     "icon_global": 0.24,
+     "ecmwf_ifs025": 0.246,
+     "icon_global": 0.239,
      "jma_gsm": 0.238,
-     "ukmo_global_deterministic_10km": 0.279
+     "ukmo_global_deterministic_10km": 0.277
     }
    },
    "name": "Swanbourne (City Beach)",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "used",
    "short": {
     "baseline_rmse_kn": 3.31,
-    "bias_kn": -0.22,
+    "bias_kn": -0.26,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 0.42,
-      "n": 488,
-      "rmse_kn": 2.48
+      "bias_kn": 0.35,
+      "n": 512,
+      "rmse_kn": 2.47
      },
      "gem_global": {
       "bias_kn": 0.18,
-      "n": 488,
-      "rmse_kn": 2.86
+      "n": 512,
+      "rmse_kn": 2.82
      },
      "gfs_global": {
-      "bias_kn": 5.57,
-      "n": 488,
-      "rmse_kn": 6.87
+      "bias_kn": 5.55,
+      "n": 512,
+      "rmse_kn": 6.88
      },
      "icon_global": {
-      "bias_kn": 0.52,
-      "n": 488,
-      "rmse_kn": 2.69
+      "bias_kn": 0.45,
+      "n": 512,
+      "rmse_kn": 2.67
      },
      "jma_gsm": {
       "bias_kn": -0.48,
-      "n": 488,
-      "rmse_kn": 2.63
+      "n": 512,
+      "rmse_kn": 2.62
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 0.57,
-      "n": 488,
+      "bias_kn": 0.52,
+      "n": 512,
       "rmse_kn": 3.0
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -1.45,
-      "n": 488,
-      "rmse_kn": 3.01
+      "bias_kn": -1.44,
+      "n": 512,
+      "rmse_kn": 2.99
      }
     },
-    "n": 488,
-    "rmse_kn": 2.14,
+    "n": 512,
+    "rmse_kn": 2.13,
     "weights": {
-     "ecmwf_ifs025": 0.277,
-     "icon_global": 0.238,
-     "jma_gsm": 0.246,
-     "ukmo_global_deterministic_10km": 0.238
+     "ecmwf_ifs025": 0.276,
+     "icon_global": 0.236,
+     "jma_gsm": 0.248,
+     "ukmo_global_deterministic_10km": 0.24
     }
    }
   },
@@ -1873,105 +1873,105 @@
    "lat": -33.8,
    "lon": 121.9,
    "long": {
-    "baseline_rmse_kn": 4.71,
-    "bias_kn": -0.1,
+    "baseline_rmse_kn": 4.63,
+    "bias_kn": -0.65,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 4.77,
-      "n": 440,
-      "rmse_kn": 6.58
+      "bias_kn": 4.61,
+      "n": 464,
+      "rmse_kn": 6.48
      },
      "gem_global": {
-      "bias_kn": 2.51,
-      "n": 440,
-      "rmse_kn": 5.44
+      "bias_kn": 2.41,
+      "n": 464,
+      "rmse_kn": 5.34
      },
      "gfs_global": {
-      "bias_kn": 5.19,
-      "n": 440,
-      "rmse_kn": 7.29
+      "bias_kn": 5.04,
+      "n": 464,
+      "rmse_kn": 7.14
      },
      "icon_global": {
-      "bias_kn": 0.15,
-      "n": 440,
-      "rmse_kn": 3.8
+      "bias_kn": 0.19,
+      "n": 464,
+      "rmse_kn": 3.74
      },
      "jma_gsm": {
       "bias_kn": 1.82,
-      "n": 440,
-      "rmse_kn": 4.92
+      "n": 464,
+      "rmse_kn": 4.86
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -1.16,
-      "n": 440,
-      "rmse_kn": 4.14
+      "bias_kn": -1.21,
+      "n": 464,
+      "rmse_kn": 4.08
      },
      "ukmo_global_deterministic_10km": {
       "bias_kn": -2.34,
-      "n": 440,
-      "rmse_kn": 4.17
+      "n": 464,
+      "rmse_kn": 4.12
      }
     },
-    "n": 440,
-    "rmse_kn": 3.17,
+    "n": 464,
+    "rmse_kn": 3.25,
     "weights": {
-     "ecmwf_ifs025": 0.184,
-     "icon_global": 0.261,
-     "meteofrance_arpege_world": 0.239,
-     "ukmo_global_deterministic_10km": 0.316
+     "icon_global": 0.262,
+     "jma_gsm": 0.18,
+     "meteofrance_arpege_world": 0.241,
+     "ukmo_global_deterministic_10km": 0.317
     }
    },
    "name": "Esperance",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 4.14,
-    "bias_kn": -0.87,
+    "baseline_rmse_kn": 4.08,
+    "bias_kn": -0.92,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 4.04,
-      "n": 488,
-      "rmse_kn": 5.83
+      "bias_kn": 3.89,
+      "n": 512,
+      "rmse_kn": 5.72
      },
      "gem_global": {
-      "bias_kn": 2.3,
-      "n": 488,
-      "rmse_kn": 4.6
+      "bias_kn": 2.18,
+      "n": 512,
+      "rmse_kn": 4.55
      },
      "gfs_global": {
-      "bias_kn": 4.53,
-      "n": 488,
-      "rmse_kn": 6.21
+      "bias_kn": 4.46,
+      "n": 512,
+      "rmse_kn": 6.12
      },
      "icon_global": {
-      "bias_kn": 0.06,
-      "n": 488,
-      "rmse_kn": 3.29
+      "bias_kn": -0.01,
+      "n": 512,
+      "rmse_kn": 3.26
      },
      "jma_gsm": {
-      "bias_kn": 1.47,
-      "n": 488,
-      "rmse_kn": 4.1
+      "bias_kn": 1.37,
+      "n": 512,
+      "rmse_kn": 4.04
      },
      "meteofrance_arpege_world": {
       "bias_kn": -1.63,
-      "n": 488,
-      "rmse_kn": 3.88
+      "n": 512,
+      "rmse_kn": 3.83
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -2.75,
-      "n": 488,
-      "rmse_kn": 4.22
+      "bias_kn": -2.76,
+      "n": 512,
+      "rmse_kn": 4.19
      }
     },
-    "n": 488,
-    "rmse_kn": 3.04,
+    "n": 512,
+    "rmse_kn": 3.0,
     "weights": {
-     "icon_global": 0.273,
-     "jma_gsm": 0.201,
-     "meteofrance_arpege_world": 0.238,
-     "ukmo_global_deterministic_10km": 0.289
+     "icon_global": 0.271,
+     "jma_gsm": 0.2,
+     "meteofrance_arpege_world": 0.239,
+     "ukmo_global_deterministic_10km": 0.29
     }
    }
   },
@@ -1979,105 +1979,105 @@
    "lat": -33.6,
    "lon": 115.3,
    "long": {
-    "baseline_rmse_kn": 3.56,
-    "bias_kn": -1.59,
+    "baseline_rmse_kn": 3.63,
+    "bias_kn": -1.65,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 1.8,
-      "n": 440,
-      "rmse_kn": 4.85
+      "bias_kn": 1.62,
+      "n": 464,
+      "rmse_kn": 4.88
      },
      "gem_global": {
-      "bias_kn": -0.02,
-      "n": 440,
-      "rmse_kn": 4.15
+      "bias_kn": -0.03,
+      "n": 464,
+      "rmse_kn": 4.11
      },
      "gfs_global": {
-      "bias_kn": 0.74,
-      "n": 440,
+      "bias_kn": 0.62,
+      "n": 464,
       "rmse_kn": 4.6
      },
      "icon_global": {
-      "bias_kn": -2.34,
-      "n": 440,
-      "rmse_kn": 4.32
+      "bias_kn": -2.48,
+      "n": 464,
+      "rmse_kn": 4.59
      },
      "jma_gsm": {
-      "bias_kn": -2.56,
-      "n": 440,
-      "rmse_kn": 4.51
+      "bias_kn": -2.65,
+      "n": 464,
+      "rmse_kn": 4.64
      },
      "meteofrance_arpege_world": {
-      "bias_kn": 1.06,
-      "n": 440,
-      "rmse_kn": 4.5
+      "bias_kn": 1.05,
+      "n": 464,
+      "rmse_kn": 4.46
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -1.1,
-      "n": 440,
-      "rmse_kn": 3.89
+      "bias_kn": -1.24,
+      "n": 464,
+      "rmse_kn": 3.97
      }
     },
-    "n": 440,
-    "rmse_kn": 3.27,
+    "n": 464,
+    "rmse_kn": 3.37,
     "weights": {
-     "gem_global": 0.208,
-     "icon_global": 0.272,
+     "gem_global": 0.223,
+     "icon_global": 0.252,
      "jma_gsm": 0.261,
-     "ukmo_global_deterministic_10km": 0.258
+     "ukmo_global_deterministic_10km": 0.265
     }
    },
    "name": "Busselton Jetty",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": false,
    "role": "reference",
    "short": {
-    "baseline_rmse_kn": 3.07,
-    "bias_kn": -1.37,
+    "baseline_rmse_kn": 3.06,
+    "bias_kn": -1.41,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": 1.96,
-      "n": 488,
-      "rmse_kn": 4.44
+      "bias_kn": 1.87,
+      "n": 512,
+      "rmse_kn": 4.45
      },
      "gem_global": {
       "bias_kn": 0.04,
-      "n": 488,
+      "n": 512,
       "rmse_kn": 3.85
      },
      "gfs_global": {
-      "bias_kn": 1.16,
-      "n": 488,
-      "rmse_kn": 4.35
+      "bias_kn": 1.13,
+      "n": 512,
+      "rmse_kn": 4.34
      },
      "icon_global": {
-      "bias_kn": -1.93,
-      "n": 488,
-      "rmse_kn": 3.44
+      "bias_kn": -1.9,
+      "n": 512,
+      "rmse_kn": 3.42
      },
      "jma_gsm": {
-      "bias_kn": -1.83,
-      "n": 488,
-      "rmse_kn": 3.99
-     },
-     "meteofrance_arpege_world": {
-      "bias_kn": 1.16,
-      "n": 488,
+      "bias_kn": -1.97,
+      "n": 512,
       "rmse_kn": 4.17
      },
+     "meteofrance_arpege_world": {
+      "bias_kn": 1.18,
+      "n": 512,
+      "rmse_kn": 4.13
+     },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -1.19,
-      "n": 488,
-      "rmse_kn": 3.93
+      "bias_kn": -1.33,
+      "n": 512,
+      "rmse_kn": 4.06
      }
     },
-    "n": 488,
-    "rmse_kn": 3.07,
+    "n": 512,
+    "rmse_kn": 3.09,
     "weights": {
-     "gem_global": 0.197,
-     "icon_global": 0.361,
-     "jma_gsm": 0.233,
-     "ukmo_global_deterministic_10km": 0.209
+     "gem_global": 0.203,
+     "icon_global": 0.371,
+     "jma_gsm": 0.222,
+     "ukmo_global_deterministic_10km": 0.205
     }
    }
   },
@@ -2085,105 +2085,105 @@
    "lat": -32.2,
    "lon": 115.7,
    "long": {
-    "baseline_rmse_kn": 4.44,
-    "bias_kn": -4.15,
+    "baseline_rmse_kn": 4.35,
+    "bias_kn": -4.07,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -5.27,
-      "n": 440,
-      "rmse_kn": 6.69
+      "bias_kn": -5.16,
+      "n": 464,
+      "rmse_kn": 6.59
      },
      "gem_global": {
-      "bias_kn": -0.31,
-      "n": 440,
-      "rmse_kn": 5.43
+      "bias_kn": -0.11,
+      "n": 464,
+      "rmse_kn": 5.37
      },
      "gfs_global": {
-      "bias_kn": 0.93,
-      "n": 440,
-      "rmse_kn": 5.13
+      "bias_kn": 0.88,
+      "n": 464,
+      "rmse_kn": 5.09
      },
      "icon_global": {
-      "bias_kn": -2.15,
-      "n": 440,
-      "rmse_kn": 4.89
+      "bias_kn": -2.18,
+      "n": 464,
+      "rmse_kn": 4.83
      },
      "jma_gsm": {
-      "bias_kn": 0.92,
-      "n": 440,
+      "bias_kn": 0.97,
+      "n": 464,
       "rmse_kn": 5.23
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -2.87,
-      "n": 440,
-      "rmse_kn": 5.57
+      "bias_kn": -2.77,
+      "n": 464,
+      "rmse_kn": 5.45
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -6.5,
-      "n": 440,
-      "rmse_kn": 8.2
+      "bias_kn": -6.44,
+      "n": 464,
+      "rmse_kn": 8.13
      }
     },
-    "n": 440,
-    "rmse_kn": 4.03,
+    "n": 464,
+    "rmse_kn": 3.98,
     "weights": {
-     "ecmwf_ifs025": 0.303,
-     "icon_global": 0.267,
-     "meteofrance_arpege_world": 0.225,
+     "ecmwf_ifs025": 0.297,
+     "icon_global": 0.27,
+     "meteofrance_arpege_world": 0.228,
      "ukmo_global_deterministic_10km": 0.205
     }
    },
    "name": "Garden Island",
-   "obs_hours": 488,
+   "obs_hours": 512,
    "primary": true,
    "role": "used",
    "short": {
-    "baseline_rmse_kn": 3.68,
-    "bias_kn": -2.86,
+    "baseline_rmse_kn": 3.6,
+    "bias_kn": -1.54,
     "models": {
      "ecmwf_ifs025": {
-      "bias_kn": -5.29,
-      "n": 488,
-      "rmse_kn": 6.58
+      "bias_kn": -5.31,
+      "n": 512,
+      "rmse_kn": 6.6
      },
      "gem_global": {
-      "bias_kn": 0.12,
-      "n": 488,
-      "rmse_kn": 4.83
+      "bias_kn": 0.22,
+      "n": 512,
+      "rmse_kn": 4.76
      },
      "gfs_global": {
-      "bias_kn": 0.46,
-      "n": 488,
-      "rmse_kn": 3.96
+      "bias_kn": 0.48,
+      "n": 512,
+      "rmse_kn": 3.89
      },
      "icon_global": {
-      "bias_kn": -1.49,
-      "n": 488,
-      "rmse_kn": 3.89
+      "bias_kn": -1.53,
+      "n": 512,
+      "rmse_kn": 3.85
      },
      "jma_gsm": {
       "bias_kn": 0.85,
-      "n": 488,
-      "rmse_kn": 4.86
+      "n": 512,
+      "rmse_kn": 4.77
      },
      "meteofrance_arpege_world": {
-      "bias_kn": -3.13,
-      "n": 488,
-      "rmse_kn": 5.93
+      "bias_kn": -3.12,
+      "n": 512,
+      "rmse_kn": 5.84
      },
      "ukmo_global_deterministic_10km": {
-      "bias_kn": -6.61,
-      "n": 488,
-      "rmse_kn": 8.16
+      "bias_kn": -6.57,
+      "n": 512,
+      "rmse_kn": 8.1
      }
     },
-    "n": 488,
-    "rmse_kn": 3.51,
+    "n": 512,
+    "rmse_kn": 3.41,
     "weights": {
-     "ecmwf_ifs025": 0.259,
-     "gfs_global": 0.257,
-     "icon_global": 0.309,
-     "ukmo_global_deterministic_10km": 0.174
+     "ecmwf_ifs025": 0.252,
+     "gfs_global": 0.261,
+     "icon_global": 0.311,
+     "jma_gsm": 0.176
     }
    }
   }
